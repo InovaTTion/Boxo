@@ -30,7 +30,6 @@
 
 #leftDivTopNav{
     background-color: black;
-    border: thin solid red;
     border-radius: 1em 0 0 1em;
     padding: 0.4em;
     display: flex;
@@ -39,11 +38,13 @@
 
 #middleDivTopNav{
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #rightDivTopNav{
     background-color: black;
-    border: thin solid red;
     border-radius: 0 1em 1em 0;
     padding: 0.4em;
     display: flex;
@@ -62,12 +63,35 @@
     display: grid;
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 50% 50%;
-    max-width: 100%;
+    gap: 0.3em;
+    max-width: 99.65%;
     height: 250vh;
 }
 
 .homeGrids{
-    background-color: aqua;
-    border: thin solid white;
-    border-radius: 1em;
+    border-radius: 0.5em;
+}
+
+#homeGrid1{
+    background-color: black;
+}
+
+#homeGrid2{
+    border: thin solid black;
+}
+
+#homeGrid3{
+    border: thin solid black;
+}
+
+#homeGrid4{
+    background-color: black;
+}
+
+#homeGrid5{
+    background-color: black;
+}
+
+#homeGrid6{
+    border: thin solid black;
 }
