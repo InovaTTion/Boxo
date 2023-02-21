@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Aleo;
+    src: url(Aleo/Aleo-Regular.ttf);
+}
+
 .whiteLetters{
+    font-family: Aleo;
     color:white;
     margin: 1em;
+    cursor: pointer;
 }
 
 .topNavClass{
