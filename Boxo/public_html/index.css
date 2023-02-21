@@ -1,16 +1,17 @@
 .whiteLetters{
     color:white;
+    margin: 1em;
 }
 
 .topNavClass{
-    background-color: black;
+    background-color: white;
     width: 98.75%;
     height: 10vh;
     position: fixed;
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: 100%;
-    border-radius: 1em;
+    top: 0;
 }
 
 .bottomNavClass{
@@ -21,15 +22,25 @@
 }
 
 #leftDivTopNav{
-    padding: 1.2em;
-    border: thin solid white;
-    border-color: red;
+    background-color: black;
+    border: thin solid red;
+    border-radius: 1em 0 0 1em;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: row;
+}
+
+#middleDivTopNav{
+    background-color: black;
 }
 
 #rightDivTopNav{
-    padding: 1.2em;
-    border: thin solid white;
-    border-color: red;
+    background-color: black;
+    border: thin solid red;
+    border-radius: 0 1em 1em 0;
+    padding: 0.4em;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #frontPicture{
