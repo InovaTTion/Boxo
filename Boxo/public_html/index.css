@@ -3,20 +3,23 @@
     src: url(Aleo/Aleo-Regular.ttf);
 }
 
+a{
+    text-decoration: none;
+}
+
+.blueHover:hover{
+    color: aquamarine;
+}
+
+.popHover:hover{
+    transform: scale(1.1);
+}
+
 .whiteLettersTopNav{
     font-family: Aleo;
     color:white;
     margin: 1em;
     cursor: pointer;
-}
-
-.whiteLettersGridText{
-    color: white;
-}
-
-.whiteHeadingGrids{
-    color: white;
-
 }
 
 .topNavClass{
@@ -105,4 +108,18 @@
 
 #homeGrid6{
     border: thin solid black;
+}
+
+.whiteHeadingGrids{
+    color: white;
+    text-align: center;
+}
+
+.whiteLettersGridText{
+    color: white;
+    text-align: center;
+}
+
+.gridHeadingLinks{
+    color: white;
 }
