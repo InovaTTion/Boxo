@@ -203,6 +203,12 @@ a{
     grid-template-rows: 100%;
 }
 
+#leftGridQuestions{
+}
+
+#rightGridQuestions{
+}
+
 .questionHeadingL{
     margin: 1.5em;
     font-family: Aleo;
