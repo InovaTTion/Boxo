@@ -136,11 +136,12 @@ a{
 #contactHeading{
 }
 
-.blackHeadingContactUs{
+.blackHeading{
     color: black;
     font-family: Aleo;
     font-size: 2.3em;
     padding-top: 1em;
+    text-align: center;
 }
 
 #contactGrid{
@@ -192,4 +193,36 @@ a{
 .contactCont{
     margin-top: 5em;
     font-family: Aleo;
+}
+
+/*QUESTIONS*/
+
+#idQuestions{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.questionHeadingL{
+    margin: 1.5em;
+    font-family: Aleo;
+    text-align: left;
+}
+
+.questionHeadingR{
+    margin: 1.5em;
+    font-family: Aleo;
+    text-align: right;
+}
+
+.answerTextL{
+    margin: 2.3em;
+    font-family: Aleo;
+    text-align: left;
+}
+
+.answerTextR{
+    margin: 2em;
+    font-family: Aleo;
+    text-align: right;
 }
