@@ -5,6 +5,7 @@
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 .blueHover:hover{
@@ -112,14 +113,82 @@ a{
 
 .whiteHeadingGrids{
     color: white;
+    font-family: Aleo;
     text-align: center;
 }
 
 .whiteLettersGridText{
     color: white;
+    font-family: Aleo;
     text-align: center;
 }
 
 .gridHeadingLinks{
     color: white;
+}
+
+
+#contactInfo{
+    text-align: center;
+}
+
+#contactHeading{
+}
+
+.blackHeadingContactUs{
+    color: black;
+    font-family: Aleo;
+    font-size: 2.3em;
+    padding-top: 1em;
+}
+
+#contactGrid{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 46% 5% 46%;
+    gap: 1em;
+    margin: 1em;
+}
+
+#phoneDiv{
+    width: 100%;
+    height: 71vh;
+}
+
+#borderDiv{
+    border-left: thick solid black;
+    width: 100%;
+    height: 50vh;
+    margin: 3.7em 0 0 1.7em;
+}
+
+#emailDiv{
+    width: 100%;
+    height: 71vh;
+}
+
+.contactIcons{
+    font-size: 8em;
+}
+
+.socialIcons{
+    font-size: 4em;
+    margin: 2em;
+}
+
+#iconFB{
+    color: blue;
+}
+
+#iconINST{
+    color: deeppink;
+}
+
+#iconPINT{
+    color: red;
+}
+
+.contactCont{
+    margin-top: 5em;
+    font-family: Aleo;
 }
