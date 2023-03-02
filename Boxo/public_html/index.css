@@ -13,7 +13,17 @@ a{
 }
 
 .popHover:hover{
-    transform: scale(1.05) rotate(-15deg);
+    transform: scale(1.05);
+    transition: all ease .4s;
+}
+
+.rotateHoverLeft:hover{
+    transform: scale(1.1) rotate(-10deg);
+    transition: all ease .4s;
+}
+
+.rotateHoverRight:hover{
+    transform: scale(1.1) rotate(10deg);
     transition: all ease .4s;
 }
 
@@ -184,8 +194,8 @@ a{
     color: blue;
 }
 
-#iconINST:hover{
-    transform: scale(2);
+#iconINST{
+
 }
 
 #iconPINT{
