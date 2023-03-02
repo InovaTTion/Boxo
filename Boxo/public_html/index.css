@@ -1,6 +1,11 @@
 @font-face {
     font-family: Aleo;
-    src: url(Aleo/Aleo-Regular.ttf);
+    src: url(Fonts/Aleo/Aleo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Architects_Daughter;
+    src: url(Fonts/Architects_Daughter/ArchitectsDaughter.ttf);
 }
 
 a{
@@ -151,6 +156,14 @@ a{
     color: black;
     font-family: Aleo;
     font-size: 2.3em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.blackHeadingBig{
+    color: black;
+    font-family: Architects_Daughter;
+    font-size: 3em;
     padding-top: 1em;
     text-align: center;
 }
