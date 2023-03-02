@@ -4,8 +4,33 @@
 }
 
 @font-face {
+    font-family: Aleo_Bold;
+    src: url(Fonts/Aleo/Aleo-Bold.ttf);
+}
+
+@font-face {
     font-family: Architects_Daughter;
     src: url(Fonts/Architects_Daughter/ArchitectsDaughter.ttf);
+}
+
+@font-face {
+    font-family: Couture;
+    src: url(Fonts/Couture/couture-bld.otf);
+}
+
+@font-face {
+    font-family: Delta;
+    src: url(Fonts/Delta/Delta.ttf);
+}
+
+@font-face {
+    font-family: Kocke;
+    src: url(Fonts/Kocke/kocke.ttf);
+}
+
+@font-face {
+    font-family: Hotlady;
+    src: url(Fonts/Hotlady/Hotlady.ttf);
 }
 
 a{
@@ -18,8 +43,8 @@ a{
 }
 
 .popHover:hover{
-    transform: scale(1.05);
-    transition: all ease .4s;
+    transform: scale(1.3);
+    transition: all ease .2s;
 }
 
 .rotateHoverLeft:hover{
@@ -42,19 +67,22 @@ a{
 .topNavClass{
     background-color: white;
     width: 98.75%;
-    height: 10vh;
+    height: 11vh;
     position: fixed;
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: 100%;
-    top: 0;
+    top: 1;
     z-index: 1;
+    border: thin solid aquamarine;
+    border-radius: 1em;
 }
 
 .bottomNavClass{
     width: 100%;
     height: 50vh;
     background-color: black;
+    border: 0.15em solid aquamarine;
     border-radius: 1em;
 }
 
@@ -100,6 +128,7 @@ a{
 
 .homeGrids{
     border-radius: 0.5em;
+    border: 0.15em solid aquamarine;
     overflow: hidden;
 }
 
@@ -108,11 +137,11 @@ a{
 }
 
 #homeGrid2{
-    border: thin solid black;
+
 }
 
 #homeGrid3{
-    border: thin solid black;
+
 }
 
 #homeGrid4{
@@ -124,7 +153,7 @@ a{
 }
 
 #homeGrid6{
-    border: thin solid black;
+
 }
 
 .whiteHeadingGrids{
@@ -162,8 +191,8 @@ a{
 
 .blackHeadingBig{
     color: black;
-    font-family: Architects_Daughter;
-    font-size: 3em;
+    font-family: Aleo_Bold;
+    font-size: 4em;
     padding-top: 1em;
     text-align: center;
 }
@@ -193,8 +222,16 @@ a{
     height: 71vh;
 }
 
+#phoneCont{
+}
+
+#emailCont{
+
+}
+
 .contactIcons{
     font-size: 8em;
+    color: #15c4ca;
 }
 
 .socialIcons{
@@ -213,6 +250,13 @@ a{
 
 #iconPINT{
     color: red;
+}
+
+.gradientBlue {
+    background: linear-gradient(to top, blue, aquamarine);
+    -moz-background-clip: icon;
+    -webkit-background-clip: icon;
+    -webkit-text-fill-color: icon;
 }
 
 .contactCont{
