@@ -13,7 +13,8 @@ a{
 }
 
 .popHover:hover{
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(-15deg);
+    transition: all ease .4s;
 }
 
 .whiteLettersTopNav{
@@ -178,12 +179,13 @@ a{
     margin: 2em;
 }
 
+
 #iconFB{
     color: blue;
 }
 
-#iconINST{
-    color: deeppink;
+#iconINST:hover{
+    transform: scale(2);
 }
 
 #iconPINT{
