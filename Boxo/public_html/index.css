@@ -72,6 +72,8 @@ a{
     cursor: pointer;
 }
 
+/*TOP NAVIGATION*/
+
 .topNavClass{
     background-color: white;
     border: thin solid aquamarine;
@@ -116,6 +118,8 @@ a{
     height: 75vh;
     border-radius: 1em;
 }
+
+/*HOMEPAGE*/
 
 #homeGrid{
     display: grid;
@@ -173,14 +177,6 @@ a{
     color: white;
 }
 
-
-#contactInfo{
-    text-align: center;
-}
-
-#contactHeading{
-}
-
 .blackHeading{
     color: black;
     font-family: Aleo;
@@ -196,6 +192,58 @@ a{
     padding-top: 1em;
     text-align: center;
 }
+
+/*PRODUCTS*/
+
+#productsDiv{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    gap: 0.1em;
+    margin: 0 0 0 1em;
+}
+
+.catGrid{
+    background-color: black;
+    width: 31vw;
+    height: 80vh;
+    border: thin solid aquamarine;
+    border-radius: 1em;
+}
+
+#fruitCat{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 55%;
+}
+
+#collectionCat{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 55% 45%;
+}
+
+#personalCat{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 55%;
+}
+
+.productGridPic{
+    text-align: center;
+}
+
+.productGridText{
+
+}
+
+.popPictureHover:hover{
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
+
+
+/*CONTACT US*/
 
 #contactGrid{
     display: grid;
@@ -220,6 +268,13 @@ a{
 #emailDiv{
     width: 100%;
     height: 71vh;
+}
+
+#contactInfo{
+    text-align: center;
+}
+
+#contactHeading{
 }
 
 #phoneCont{
@@ -250,13 +305,6 @@ a{
 
 #iconPINT{
     color: red;
-}
-
-.gradientBlue {
-    background: linear-gradient(to top, blue, aquamarine);
-    -moz-background-clip: icon;
-    -webkit-background-clip: icon;
-    -webkit-text-fill-color: icon;
 }
 
 .contactCont{
