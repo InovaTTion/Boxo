@@ -342,6 +342,19 @@ a{
 
 .bottNavLinks{
     /*border: thin solid purple;*/
+    padding: 2em 0 0 1em;
+}
+
+.bottLinks{
+    font-family: Aleo;
+    color: white;
+    padding: 0 0 0 2.2em;
+}
+
+.smallBorder{
+    border-left: thin solid white; 
+    padding: 0 0 0 0.2em;
+    margin-left: 2.1em;
 }
 
 .bottNavSmedia{
