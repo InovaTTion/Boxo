@@ -66,30 +66,22 @@ a{
 
 .topNavClass{
     background-color: white;
+    border: thin solid aquamarine;
+    border-radius: 1em;
     width: 98.75%;
     height: 11vh;
     position: fixed;
+    top: 1;
+    z-index: 1;
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: 100%;
-    top: 1;
-    z-index: 1;
-    border: thin solid aquamarine;
-    border-radius: 1em;
-}
-
-.bottomNavClass{
-    width: 100%;
-    height: 50vh;
-    background-color: black;
-    border: 0.15em solid aquamarine;
-    border-radius: 1em;
 }
 
 #leftDivTopNav{
     background-color: black;
     border-radius: 1em 0 0 1em;
-    padding: 0.4em;
+    padding: 0.6em;
     display: flex;
     flex-direction: row;
 }
@@ -104,7 +96,7 @@ a{
 #rightDivTopNav{
     background-color: black;
     border-radius: 0 1em 1em 0;
-    padding: 0.4em;
+    padding: 0.6em;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -301,3 +293,70 @@ a{
     font-family: Aleo;
     text-align: right;
 }
+
+/*BOTTOM NAVIGATION*/
+
+.bottomNavClass{
+    background-color: black;
+    border: 0.15em solid aquamarine;
+    border-radius: 1em;
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 80% 20%;
+}
+
+.bottomNavGrid1{
+    /*border: thin solid red;*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+}
+
+.bottomNavGrid2{
+    /*border: thin solid green;*/
+    margin: auto;
+}
+
+.bottNavSocial{
+    /*border: thin solid yellow;*/
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 49% 1% 49%;
+}
+
+.borderSocial{
+    border-left: thin solid white;
+    height: 20vh;
+    margin-top: 6em;
+}
+
+.bottNavIcons{
+    /*border: thin solid lawngreen;*/
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+
+.bottNavLinks{
+    /*border: thin solid purple;*/
+}
+
+.bottNavSmedia{
+    /*border: thin solid white;*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+}
+
+.bottNavIconsDim{
+    font-size: 4em;
+    text-align: center;
+}
+
+.bottNavNewsl{
+    /*border: thin solid orange;*/
+}
+
