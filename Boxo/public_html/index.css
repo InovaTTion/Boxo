@@ -33,6 +33,10 @@
     src: url(Fonts/Hotlady/Hotlady.ttf);
 }
 
+::placeholder{
+    color: aqua;
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -40,6 +44,10 @@ a{
 
 .blueHover:hover{
     color: aquamarine;
+}
+
+.blueHoverBckg:hover{
+    background-color: aquamarine;
 }
 
 .popHover:hover{
@@ -371,5 +379,23 @@ a{
 
 .bottNavNewsl{
     /*border: thin solid orange;*/
+    text-align: center;
+}
+
+.formNewsL{
+    margin: 4.7em 0 0 0 ;
+}
+
+.inputNewsL{
+    font-size: 1em;
+    height: 4vh;
+    width: 18vw;
+    border-radius: 0.3em;
+}
+
+.inputNewsLBtn{
+    font-family: Aleo;
+    margin: 0.4em 0 0 0;
+    cursor: pointer;
 }
 
