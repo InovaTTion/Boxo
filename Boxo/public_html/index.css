@@ -36,6 +36,11 @@
 ::placeholder{
 }
 
+.picMarginTop{
+    margin-top: 1.5em;
+    border-radius: 0.2em;
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -192,9 +197,9 @@ a{
     text-align: center;
 }
 
-/*PRODUCTS*/
+/*PRODUCTS CATEGORIES*/
 
-#productsDiv{
+#productsCat{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 33% 33% 33%;
@@ -239,6 +244,39 @@ a{
 .popPictureHover:hover{
     transform: scale(1.1);
     transition: all ease .3s;
+}
+
+/*PRODUCTS*/
+
+.productsDiv3Class{
+    margin: 0 0 0 0.6em;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    /*border: thin solid red;*/
+    justify-items: center;
+    width: 98.2%; 
+    height: 60vh;
+}
+
+.productsDiv6Class{
+    margin: 0 0 0 0.6em;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    /*border: thin solid red;*/
+    width: 98.2%; 
+    height: 120vh;
+}
+
+.products{
+    background-color: black;
+    border: thin solid aquamarine;
+    border-radius: 1em;
+    width: 22vw;
+    height: 50vh;
+    text-align: center;
 }
 
 
