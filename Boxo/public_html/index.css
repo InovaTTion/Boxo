@@ -40,6 +40,12 @@
     text-align: center;
 }
 
+.whiteLettersDesc{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+}
+
 .whiteHeadingGrids{
     color: white;
     font-family: Aleo;
@@ -271,7 +277,7 @@ a{
     /*border: thin solid red;*/
     justify-items: center;
     width: 98.2%; 
-    height: 60vh;
+    height: 65vh;
 }
 
 .productsDiv6Class{
@@ -290,9 +296,9 @@ a{
     border: thin solid aquamarine;
     border-radius: 1em;
     width: 22vw;
-    height: 50vh;
+    height: 55vh;
     text-align: center;
-    box-shadow: 1em -1em 1em gray; 
+    box-shadow: 1em -1em 1em gray;
 }
 
 
