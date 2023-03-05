@@ -33,11 +33,20 @@
     src: url(Fonts/Hotlady/Hotlady.ttf);
 }
 
-.descOpenClose{
+.descOpen{
     font-family: Aleo;
     color: white;
     float: right;
+    margin: 1em 0.5em 0 0;
+    cursor: pointer;
+}
+
+.descClose{
+    font-family: Aleo;
+    color: black;
+    float: right;
     margin-right: 0.5em;
+    cursor: pointer;
 }
 
 .whiteLettersItalic{
@@ -49,6 +58,14 @@
 
 .whiteLettersDesc{
     color: white;
+    font-family: Aleo;
+    text-align: center;
+    float: left;
+    margin: 1em 0 0 0.5em;
+}
+
+.blackLettersDesc{
+    color: black;
     font-family: Aleo;
     text-align: center;
     float: left;
@@ -104,6 +121,7 @@ a{
     transition: all ease .4s;
 }
 
+
 .whiteLettersTopNav{
     font-family: Aleo;
     color:white;
@@ -129,7 +147,7 @@ a{
     height: 11vh;
     position: fixed;
     top: 1;
-    z-index: 1;
+    z-index: 2;
     display: grid;
     grid-template-columns: 40% 20% 40%;
     grid-template-rows: 100%;
@@ -141,6 +159,7 @@ a{
     padding: 0.6em;
     display: flex;
     flex-direction: row;
+    z-index: 2;
 }
 
 #middleDivTopNav{
@@ -148,6 +167,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 #rightDivTopNav{
@@ -156,6 +176,7 @@ a{
     padding: 0.6em;
     display: flex;
     flex-direction: row-reverse;
+    z-index: 2;
 }
 
 #frontPicture{
@@ -311,12 +332,51 @@ a{
 }
 
 .descCard{
-    background-color: antiquewhite;
+    background-color: aquamarine;
     border-radius: 1em;
     width: 22vw;
-    height: 20vh;
+    height: 18.2vh;
+    position: absolute;
+    top: 65em;
     z-index: 1;
-    display: block;
+    transition: all ease .5s;
+    display: none;
+}
+
+.descCard1{
+    background-color: aquamarine;
+    border-radius: 1em;
+    width: 22vw;
+    height: 18.2vh;
+    position: absolute;
+    top: 68.6em;
+    z-index: 1;
+    transition: all ease .5s;
+    display: none;
+}
+
+.descCard11{
+    background-color: aquamarine;
+    border-radius: 1em;
+    width: 22vw;
+    height: 18.2vh;
+    position: absolute;
+    top: 92.5em;
+    z-index: 1;
+    transition: all ease .5s;
+    display: none;
+}
+
+.descCard2{
+    background-color: aquamarine;
+    border-radius: 1em;
+    width: 22vw;
+    height: 18.2vh;
+    position: absolute;
+    top: 70em;
+    z-index: 1;
+    transition: all ease .5s;
+    display: none;
 }
 
 

@@ -46,21 +46,43 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <div id="product1" class="products">
                 <img src="../Images/fruits_220x165.jpg" class="picMarginTop" alt="Vita">
                 <h2 id="" class="whiteHeadingGrids">Vita</h2>
-                <span id="" class="descCard"></span>
                 <h3 id="" class="whiteLettersItalic">2199,oo</h3>
-                <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpenClose">+</span><span id="" class="descOpenClose">-</span>
+                <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard1').style.display='block'">+</span>
+                <div id="dCard1" class="descCard">
+                    <span id="" class="blackLettersDesc">Opis</span><span id="" class="descClose" onclick="document.getElementById('dCard1').style.display='none'">-</span>
+                    <br>
+                    <p id="" class="blackLettersDesc">
+                        - 1,5kg voća <br>- korpa
+                    </p>
+                </div>
             </div>
             <div id="product2" class="products">
                 <img src="../Images/fruits_220x165.jpg" class="picMarginTop"
                     alt="Vital">
                 <h2 id="" class="whiteHeadingGrids">Vital</h2>
                 <h3 id="" class="whiteLettersItalic">3599,oo</h3>
+                <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard2').style.display='block'">+</span>
+                <div id="dCard2" class="descCard">
+                    <span id="" class="blackLettersDesc">Opis</span><span id="" class="descClose" onclick="document.getElementById('dCard2').style.display='none'">-</span>
+                    <br>
+                    <p id="" class="blackLettersDesc">
+                        - 4kg voća <br>- korpa
+                    </p>
+                </div>
             </div>
             <div id="product3" class="products">
                 <img src="../Images/fruits_220x165.jpg" class="picMarginTop"
                     alt="Vital+">
                 <h2 id="" class="whiteHeadingGrids">Vital +</h2>
                 <h3 id="" class="whiteLettersItalic">4299,oo</h3>
+                <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard3').style.display='block'">+</span>
+                <div id="dCard3" class="descCard">
+                    <span id="" class="blackLettersDesc">Opis</span><span id="" class="descClose" onclick="document.getElementById('dCard3').style.display='none'">-</span>
+                    <br>
+                    <p id="" class="blackLettersDesc">
+                        - 2kg voća <br>- korpa <br>- čokolada <br>- vino
+                    </p>
+                </div>
             </div>
             <!--<div id="product4" class="products"></div>
         <div id="product5" class="products"></div>
@@ -126,6 +148,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <img src="../Images/Logo/Boxo_150x203.svg">
             </div>
         </nav>
+        <!--JAVASCRIPT FILE-->
+        <script src="index.js"></script>
         <!--ION ICONS SCRIPT-->
         <script type="module"
             src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
