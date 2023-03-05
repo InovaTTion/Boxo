@@ -91,6 +91,7 @@
 .picMarginTop{
     margin-top: 1.5em;
     border-radius: 0.2em;
+    cursor: pointer;
 }
 
 a{
@@ -119,6 +120,10 @@ a{
 .rotateHoverRight:hover{
     transform: scale(1.1) rotate(10deg);
     transition: all ease .4s;
+}
+
+.products:hover{
+    box-shadow: 1em -1em 1em gray;
 }
 
 
@@ -328,7 +333,7 @@ a{
     width: 22vw;
     height: 55vh;
     text-align: center;
-    box-shadow: 1em -1em 1em gray;
+    box-shadow: 0.3em -0.3em 1em gray;
 }
 
 .descCard{
