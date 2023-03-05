@@ -292,6 +292,7 @@ a{
     width: 22vw;
     height: 50vh;
     text-align: center;
+    box-shadow: 1em -1em 1em gray; 
 }
 
 
