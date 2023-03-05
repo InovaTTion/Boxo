@@ -96,6 +96,15 @@ a{
     cursor: pointer;
 }
 
+.blackLettersBackForward{
+    font-family: Aleo;
+    font-size: 1.1em;
+    color: black;
+    margin: 0 1em 0 1em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 /*TOP NAVIGATION*/
 
 .topNavClass{
