@@ -33,6 +33,26 @@
     src: url(Fonts/Hotlady/Hotlady.ttf);
 }
 
+.whiteLettersItalic{
+    color: white;
+    font-family: Aleo;
+    font-style: italic;
+    text-align: center;
+}
+
+.whiteHeadingGrids{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+}
+
+.whiteLettersGridText{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    margin: 1em;
+}
+
 ::placeholder{
 }
 
@@ -162,19 +182,6 @@ a{
 
 #homeGrid6{
 
-}
-
-.whiteHeadingGrids{
-    color: white;
-    font-family: Aleo;
-    text-align: center;
-}
-
-.whiteLettersGridText{
-    color: white;
-    font-family: Aleo;
-    text-align: center;
-    margin: 1em;
 }
 
 .gridHeadingLinks{
