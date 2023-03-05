@@ -34,6 +34,7 @@
 }
 
 .descOpenClose{
+    font-family: Aleo;
     color: white;
     float: right;
     margin-right: 0.5em;
@@ -314,6 +315,8 @@ a{
     border-radius: 1em;
     width: 22vw;
     height: 20vh;
+    z-index: 1;
+    display: block;
 }
 
 
