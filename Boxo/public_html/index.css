@@ -33,6 +33,10 @@
     src: url(Fonts/Hotlady/Hotlady.ttf);
 }
 
+.frontPicSlides{
+    display: none;
+}
+
 .redClose{
     color: red;
     cursor: pointer;
