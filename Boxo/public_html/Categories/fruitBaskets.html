@@ -44,7 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <h1 id="" class="blackHeadingBig">VOĆNE KORPE</h1>
         <div id="" class="productsDiv3Class">
             <div id="product1" class="products">
-                <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" alt="Vita">
+                <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal1').style.display='block'" alt="Vita">
                 <h2 id="" class="whiteHeadingGrids">Vita</h2>
                 <h3 id="" class="whiteLettersItalic">2199,oo</h3>
                 <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard1').style.display='block'">+</span>
@@ -57,6 +57,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </p>
                 </div>
                 <!--MODAL BIG IMAGE HIDDEN BY DEAFAULT-->
+                <div id="modal1" class="modalBigImage">
+                    <span id="" class="redClose" onclick="document.getElementById('modal1').style.display='none'"><ion-icon name="close-circle" class="popHover" ></ion-icon></span>
+                    <img src="../Images/fruits_640x480.jpg" style="margin-top: 5em;" alt="Vita">
+                </div>
             </div>
             <div id="product2" class="products">
                 <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" alt="Vital">
