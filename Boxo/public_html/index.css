@@ -621,3 +621,13 @@ a{
     cursor: pointer;
 }
 
+.partnersClass{
+    display: flex;
+}
+
+.partnerPosition{
+    border: thin solid red;
+    width: 15vw;
+    height: 20vh;
+}
+

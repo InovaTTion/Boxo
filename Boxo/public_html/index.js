@@ -1,3 +1,4 @@
+/*FRONT/COVER PAGE SLIDES*/
 let slideIndex = 0;
 showSlides();
 
@@ -13,3 +14,12 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 4000);
 }
+
+/*PARTNERS CAROUSEL*/
+$(".carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    items: 5,
+    mouseDrag: true
+});
