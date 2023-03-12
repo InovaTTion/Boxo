@@ -621,9 +621,14 @@ a{
     cursor: pointer;
 }
 
+/*PARTNERS*/
+
+#partnersID{
+    m
+}
+
 .carousel{
     display: flex;
-    padding: 0 0 0 1.6em;
 }
 
 .carousel-items{
