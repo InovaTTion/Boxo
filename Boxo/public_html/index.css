@@ -621,6 +621,10 @@ a{
     cursor: pointer;
 }
 
+.carousel{
+    display: flex;
+}
+
 .partnersClass{
     display: flex;
 }
