@@ -203,6 +203,10 @@ a{
     border-radius: 1em;
 }
 
+.frontPictureHide{
+    display: none;
+}
+
 /*HOMEPAGE*/
 
 #homeGrid{
