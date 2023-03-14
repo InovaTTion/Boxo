@@ -87,6 +87,7 @@
     color: white;
     font-family: Aleo;
     text-align: center;
+    cursor: pointer;
 }
 
 .whiteLettersGridText{
@@ -415,9 +416,25 @@ a{
     width: 30vw;
     height: 75.6vh;
     position: relative;
-    bottom: 32em;
-    left: 53.5em;
+    bottom: 32.1em;
+    left: 48.6em;
+}
 
+.modalDescHP{
+    background-color: beige;
+    width: 30vw;
+    height: 75.6vh;
+    position: relative;
+    bottom: 32.1em;
+    left: 47.2em;
+}
+
+.modalPic{
+    padding: 5em 25em 0 0;
+}
+
+.modalPicHP{
+    padding: 5em 0 0 5em;
 }
 
 
