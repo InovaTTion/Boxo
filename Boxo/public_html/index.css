@@ -662,8 +662,83 @@ a{
 **************************MEDIA QUERIES**************************
 ****************************************************************/
 
+.topNavClass1{
+    display: none;
+    background-color: black;
+    border-radius: 0.5em;
+    width: 94%;
+    height: 10vh;
+    position: fixed;
+    top: 1;
+    z-index: 2;
+}
+
+.whiteIcons{
+    color: white;
+    font-size: 2.4em;
+}
+
+#frontPicture1{
+    display: none;
+    background-color: gray;
+    width: 100%;
+    height: 50vh;
+}
+
+.bottomNavClass1{
+    display: none;
+    background-color: black;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 50vh;
+}
+
 /*SMALL*/
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 280px) and (orientation: portrait) {
+    /*TOP NAVIGATION*/
+    .topNavClass{
+        display: none;
+    }
+
+    .topNavClass1{
+        display: block;
+    }
+
+    /*FRONT PICTURE*/
+    #frontPicture{
+        display: none;
+    }
+
+    #frontPicture1{
+        display: block;
+    }
+
+    #izdvajamoID{
+        font-size: 2em;
+    }
+
+    /*HOME GRID*/
+
+    #homeGrid{
+        display: none;
+    }
+
+    #homeGridA{
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        width: 100%;
+        height: 200vh;
+    }
+
+    /*BOTTOM NAVIGATION*/
+    .bottomNavClass{
+        display: none;
+    }
     
+    .bottomNavClass1{
+        display: block;
+    }
 }
