@@ -668,8 +668,11 @@ a{
 **************************MEDIA QUERIES**************************
 ****************************************************************/
 
-.topNavClass1{
+#topNav1{
     display: none;
+}
+
+.topNavClass1{
     background-color: black;
     border-radius: 0.5em;
     width: 94%;
@@ -677,6 +680,10 @@ a{
     position: fixed;
     top: 1;
     z-index: 2;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
 }
 
 .whiteIcons{
@@ -742,7 +749,7 @@ a{
         display: none;
     }
 
-    .topNavClass1{
+    #topNav1{
         display: block;
     }
 
