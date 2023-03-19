@@ -1,3 +1,8 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: Aleo;
     src: url(Fonts/Aleo/Aleo-Regular.ttf);
@@ -685,6 +690,41 @@ a{
     height: 50vh;
 }
 
+
+
+#homeGridA{
+        display: none;
+    }
+
+.classHomeGridA{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    width: 100%;
+    height: 225vh;
+}
+
+
+.homeGridsA{
+    background-color: black;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 73vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 43% 57%;
+    }
+
+.classGridPic1{
+    text-align: center;
+    }
+    
+.pics1{
+    margin: 0 0 0 0;
+    border-radius: 0.5em;
+}
+
 .bottomNavClass1{
     display: none;
     background-color: black;
@@ -725,13 +765,9 @@ a{
     }
 
     #homeGridA{
-        background-color: gray;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
-        width: 100%;
-        height: 200vh;
+        display: block;
     }
+
 
     /*BOTTOM NAVIGATION*/
     .bottomNavClass{
