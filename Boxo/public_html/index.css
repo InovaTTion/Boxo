@@ -759,6 +759,11 @@ a{
     grid-template-rows: 20% 60% 20%;
 }
 
+.bottNavIconsDim1{
+    font-size: 3em;
+    text-align: center;
+}
+
 .formNewsL1{
     text-align: center;
 }
