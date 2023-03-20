@@ -759,6 +759,19 @@ a{
     grid-template-rows: 20% 60% 20%;
 }
 
+.formNewsL1{
+    text-align: center;
+}
+
+.inputNewsL1{
+    width: 60vw;
+    height: 3.5vh;
+}
+
+.inputNewsLBtn1{
+    font-size: 1em;
+}
+
 .classBotNavLinks1{
     /*border: thin solid yellow;*/
 }
