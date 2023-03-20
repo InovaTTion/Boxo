@@ -760,7 +760,24 @@ a{
 }
 
 .classBotNavLinks1{
-    border: thin solid yellow;
+    /*border: thin solid yellow;*/
+}
+
+.bottLinks1{
+    font-family: Aleo;
+    color: white;
+    margin: 0 0 0 0.9em;
+}
+
+.bottLinks11{
+    font-family: Aleo;
+    color: white;
+    margin: 0 0 0 1.3em;
+}
+
+.smallBorder1{
+    border-left: thin solid white; 
+    margin: 0 0 0 0.9em;
 }
 
 .logoDivBotNav1{
@@ -769,7 +786,7 @@ a{
 
 .logoBotNav1{
     position: relative;
-    top: 2em;
+    top: 0.5em;
 }
 
 /*SMALL*/
