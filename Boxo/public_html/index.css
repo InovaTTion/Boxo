@@ -763,6 +763,15 @@ a{
     border: thin solid yellow;
 }
 
+.logoDivBotNav1{
+    text-align: center;
+}
+
+.logoBotNav1{
+    position: relative;
+    top: 2em;
+}
+
 /*SMALL*/
 
 @media only screen and (max-width: 280px) and (orientation: portrait) {
