@@ -23,3 +23,14 @@ $(".carousel").owlCarousel({
     items: 5,
     mouseDrag: true
 });
+
+/*DROPDOWN MENU FOR MEDIA QUERIES*/
+function dropdownMenu() {
+    var ddMenu = document.getElementById("idDropdownMenu");
+    
+    if(ddMenu.style.display == "block") {
+        ddMenu.style.display = "none";
+    } else {
+        ddMenu.style.display = "block";
+    }
+}
