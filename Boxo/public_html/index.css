@@ -687,8 +687,8 @@ a{
 }
 
 .classDropdownMenu{
-    background-color: black;
-    border-color: thin solid aquamarine;
+    background-color: red;
+    border-color: thick solid aquamarine;
     border-radius: 0.5em;
     display: none;
     width: 50vw;
