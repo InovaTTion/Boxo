@@ -832,6 +832,14 @@ a{
     top: 0.5em;
 }
 
+/*CONTACT PAGE*/
+
+#borderDiv1{
+    display: none;
+    border-top: thick solid black;
+    width: 100%;
+}
+
 /*SMALL*/
 
 @media only screen and (max-width: 280px) and (orientation: portrait) {
@@ -876,4 +884,26 @@ a{
     #idBottomNav1{
         display: block;
     }
+
+    /*CONTACT PAGE*/
+    #socialNetworkDiv{
+        display: none;
+    }
+
+    #contactGrid{
+        display: grid;
+        grid-template-rows: 46% 5% 46%;
+        grid-template-columns: 100%;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    #borderDiv{
+        display: none;
+    }
+
+    #borderDiv1{
+        display: block;
+    }
+
 }
