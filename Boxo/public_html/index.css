@@ -855,9 +855,32 @@ a{
 .catGrid1{
     background-color: black;
     width: 100%;
-    height: 75vh;
+    height: 83vh;
     border-radius: 0.3em;
     margin: 0 0 1em 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 23% 38.5% 38.5%;
+}
+
+.productGridPic1{
+    border: thin solid green;
+}
+
+.whiteLettersGridText1{
+        color: white;
+        font-family: Aleo;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 1em;
+}
+
+.test{
+    border: thin solid red;
+}
+
+.test1{
+    border: thin solid yellow;
 }
 
 /*SMALL*/
