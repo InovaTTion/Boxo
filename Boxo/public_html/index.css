@@ -657,6 +657,10 @@ a{
     display: flex;
 }
 
+.carousel1{
+    display: none;
+}
+
 .carousel-items{
     border: thin solid red;
     width: 15vw;
@@ -958,5 +962,12 @@ a{
     #borderDiv1{
         display: block;
     }
+
+    /* ABOUT US PAGE*/
+
+    #idQuestions{
+        display: block;
+    }
+
 
 }

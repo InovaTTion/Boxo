@@ -24,6 +24,14 @@ $(".carousel").owlCarousel({
     mouseDrag: true
 });
 
+$(".carousel1").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    items: 1,
+    mouseDrag: true
+});
+
 /*DROPDOWN MENU FOR MEDIA QUERIES*/
 function dropdownMenu() {
     var ddMenu = document.getElementById("idDropdownMenu");
