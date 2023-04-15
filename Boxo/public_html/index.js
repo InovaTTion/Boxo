@@ -21,8 +21,29 @@ $(".carousel").owlCarousel({
     autoplay: true,
     autoplayHoverPause: true,
     items: 5,
-    mouseDrag: true
+    mouseDrag: true,
+    responsiveClass: true,
+
+    responsive: {
+        0: {
+            items: 2,
+        },
+        281: {
+            items: 5,
+        }
+    }
 });
+
+var x = window.matchMedia("(max-width: 280px)");
+
+function carouselMediaQuerie(x) {
+    if(x.matches) {
+
+    }
+}
+
+carouselMediaQuerie(x);
+x.addEventListener(carouselMediaQuerie);
 
 $(".carousel1").owlCarousel({
     loop: true,
