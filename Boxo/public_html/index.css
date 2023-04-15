@@ -969,5 +969,10 @@ a{
         display: block;
     }
 
+    .carousel-items{
+        width: 45vw;
+        height: 20vh;
+    }
+
 
 }
