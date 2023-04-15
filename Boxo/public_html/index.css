@@ -672,6 +672,8 @@ a{
 **************************MEDIA QUERIES**************************
 ****************************************************************/
 
+/*MAX-WIDTH 280PX ORIENTATION PORTRAIT*/
+
 #topNav1{
     display: none;
 }
@@ -701,6 +703,16 @@ a{
     position: fixed;
     top: 5em;
     left: 0.5em;
+}
+
+/*MAX-WIDTH 280PX ORIENTATION LANDSCAPE*/
+
+#topNav11{
+    display: none;
+}
+
+.topNavClas11{
+
 }
 
 .whiteLettersTopNav1{
