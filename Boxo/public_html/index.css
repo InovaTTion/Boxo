@@ -844,6 +844,10 @@ a{
     width: 100%;
 }
 
+.headingQuestions1{
+    display: none;
+}
+
 /*PRODUCT CATEGORIES, GIFTS PAGE*/
 
 #productsCat1{
@@ -960,6 +964,14 @@ a{
     }
 
     #borderDiv1{
+        display: block;
+    }
+
+    #idHeadingQuestions1{
+        display: none;
+    }
+
+    .headingQuestions1{
         display: block;
     }
 
