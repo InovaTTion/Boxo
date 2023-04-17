@@ -1004,7 +1004,42 @@ a{
 @media only screen and (max-width: 280px) and (orientation: landscape) {
 
 }
+/*MAX-WIDTH 480PX*/
 
 @media only screen and (min-width: 281px) and (max-width: 480px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 281px) and (max-width: 480px) and (orientation: landscape) {
+    
+}
+
+/*MAX-WIDTH 768PX*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    
+}
+
+/*MAX-WIDTH 1024PX*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/*MIN WIDTH 1025PX*/
+
+@media only screen and (min-width: 1025px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 1025px) and (orientation: landscape) {
     
 }
