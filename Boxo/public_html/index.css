@@ -1004,3 +1004,7 @@ a{
 @media only screen and (max-width: 280px) and (orientation: landscape) {
 
 }
+
+@media only screen and (min-width: 281px) and (max-width: 480px) and (orientation: portrait) {
+    
+}
