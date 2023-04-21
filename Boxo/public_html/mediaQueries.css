@@ -243,6 +243,10 @@
 /*SMALL*/
 
 @media only screen and (max-width: 280px) and (orientation: portrait) {
+    .blackHeadingBig{
+        font-size: 2em;
+    }
+    
     /*TOP NAVIGATION*/
     .topNavClass{
         display: none;
@@ -259,10 +263,6 @@
 
     #frontPicture1{
         display: block;
-    }
-
-    #izdvajamoID{
-        font-size: 2em;
     }
 
     /*HOME GRID*/
@@ -351,6 +351,12 @@
     }
 
     .descCard{
+        width: 100%;
+        position: inherit;
+        z-index: 1;
+    }
+
+    .descCard1{
         width: 100%;
         position: inherit;
         z-index: 1;
