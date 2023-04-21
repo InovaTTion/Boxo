@@ -344,7 +344,11 @@
 
 /*MAX-WIDTH 320PX*/
 @media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: portrait) {
-
+    .productsDiv3Class{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
 }
 
 @media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: landscape) {
