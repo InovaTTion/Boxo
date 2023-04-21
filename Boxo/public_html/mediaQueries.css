@@ -348,18 +348,17 @@
 
     .products{
         width: 100%;
+        position: relative;
     }
 
     .descCard{
         width: 100%;
-        position: inherit;
-        z-index: 1;
+        top: 15.2em;
     }
 
     .descCard1{
         width: 100%;
-        position: inherit;
-        z-index: 1;
+        top: 15.2em;
     }
 
     .productsDiv6Class{
