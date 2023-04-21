@@ -1,0 +1,392 @@
+/****************************************************************
+**************************MEDIA QUERIES**************************
+****************************************************************/
+
+/*MAX-WIDTH 280PX ORIENTATION PORTRAIT*/
+
+#topNav1{
+    display: none;
+}
+
+.topNavClass1{
+    background-color: black;
+    border-radius: 0.5em;
+    width: 94%;
+    height: 10vh;
+    position: fixed;
+    top: 1;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.classDropdownMenu{
+    background-color: black;
+    border: thin solid aquamarine;
+    border-radius: 0.5em;
+    display: none;
+    width: 50vw;
+    height: 36vh;
+    z-index: 3;
+    position: fixed;
+    top: 5em;
+    left: 0.5em;
+}
+
+#topNav11{
+    display: none;
+}
+
+.topNavClas11{
+
+}
+
+.whiteLettersTopNav1{
+    font-family: Aleo;
+    color: white;
+    font-size: 1.3em;
+    margin: 0 0 0 1.6em;
+}
+
+.hr1{
+    width: 40vw;
+    color: white;
+}
+
+.whiteIcons{
+    color: white;
+    font-size: 2.4em;
+}
+
+#frontPicture1{
+    display: none;
+    background-color: gray;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+#homeGridA{
+        display: none;
+    }
+
+.classHomeGridA{
+    /*background-color: gray;*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    width: 100%;
+    height: 225vh;
+}
+
+
+.homeGridsA{
+    background-color: black;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 73vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 43% 57%;
+    }
+
+.classGridPic1{
+    text-align: center;
+    }
+    
+.pics1{
+    margin: 0 0 0 0;
+    border-radius: 0.5em;
+}
+
+#idBottomNav1{
+    display: none;
+}
+
+.classBottomNav1{
+    background-color: black;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 142vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.classGridBotNav1{
+    /*border: thin solid red;*/
+    width: 100%;
+    height: 45vh;
+}
+
+#idGridBotNav3{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.bottNavIconsDim1{
+    font-size: 3.5em;
+    margin: 0 0 0 0.5em;
+}
+
+.formNewsL1{
+    text-align: center;
+}
+
+.inputNewsL1{
+    width: 60vw;
+    height: 3.5vh;
+}
+
+.inputNewsLBtn1{
+    font-size: 1em;
+}
+
+.classBotNavLinks1{
+    /*border: thin solid yellow;*/
+}
+
+.bottLinks1{
+    font-family: Aleo;
+    color: white;
+    margin: 0 0 0 0.9em;
+}
+
+.bottLinks11{
+    font-family: Aleo;
+    color: white;
+    margin: 0 0 0 1.3em;
+}
+
+.smallBorder1{
+    border-left: thin solid white; 
+    margin: 0 0 0 0.9em;
+}
+
+.logoDivBotNav1{
+    text-align: center;
+}
+
+.logoBotNav1{
+    position: relative;
+    top: 0.5em;
+}
+
+/*CONTACT PAGE*/
+
+#borderDiv1{
+    display: none;
+    border-top: thick solid black;
+    width: 100%;
+}
+
+.headingQuestions1{
+    display: none;
+}
+
+/*PRODUCT CATEGORIES, GIFTS PAGE*/
+
+#productsCat1{
+    display: none;
+}
+
+.productsCat1Class{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 100%;
+}
+
+.catGrid1{
+    background-color: black;
+    width: 100%;
+    height: 83vh;
+    border-radius: 0.3em;
+    margin: 0 0 1em 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 23% 38.5% 38.5%;
+}
+
+.productGridPic1{
+    border: thin solid green;
+}
+
+.whiteLettersGridText1{
+        color: white;
+        font-family: Aleo;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 1em;
+}
+
+.test{
+    border: thin solid red;
+}
+
+.test1{
+    border: thin solid yellow;
+}
+
+
+
+
+
+
+
+
+
+
+/*SMALL*/
+
+@media only screen and (max-width: 280px) and (orientation: portrait) {
+    /*TOP NAVIGATION*/
+    .topNavClass{
+        display: none;
+    }
+
+    #topNav1{
+        display: block;
+    }
+
+    /*FRONT PICTURE*/
+    #frontPicture{
+        display: none;
+    }
+
+    #frontPicture1{
+        display: block;
+    }
+
+    #izdvajamoID{
+        font-size: 2em;
+    }
+
+    /*HOME GRID*/
+
+    #homeGrid{
+        display: none;
+    }
+
+    #homeGridA{
+        display: block;
+    }
+
+
+    /*BOTTOM NAVIGATION*/
+    .bottomNavClass{
+        display: none;
+    }
+    
+    #idBottomNav1{
+        display: block;
+    }
+
+    /*PRODUCTS CATEGORIES, GIFTS PAGE*/
+
+    #productsCat{
+        display: none;
+    }
+
+    #productsCat1{
+        display: block;
+    }
+
+    /*CONTACT PAGE*/
+    #socialNetworkDiv{
+        display: none;
+    }
+
+    #contactGrid{
+        display: grid;
+        grid-template-rows: 46% 5% 46%;
+        grid-template-columns: 100%;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    #borderDiv{
+        display: none;
+    }
+
+    #borderDiv1{
+        display: block;
+    }
+
+    #idHeadingQuestions1{
+        display: none;
+    }
+
+    .headingQuestions1{
+        display: block;
+    }
+
+    /* ABOUT US PAGE*/
+
+    #idQuestions{
+        display: block;
+    }
+
+    .carousel-items{
+        width: 45vw;
+        height: 20vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 280px) and (orientation: landscape) {
+
+}
+
+/*MAX-WIDTH 320PX*/
+@media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: landscape) {
+
+}
+
+/*MAX-WIDTH 480PX*/
+
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+    
+}
+
+/*MAX-WIDTH 768PX*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+    
+}
+
+/*MAX-WIDTH 1024PX*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/*MIN WIDTH 1025PX*/
+
+@media only screen and (min-width: 1025px) and (orientation: portrait) {
+    
+}
+
+@media only screen and (min-width: 1025px) and (orientation: landscape) {
+    
+}
