@@ -397,8 +397,15 @@
 }
 
 /*MAX-WIDTH 320PX*/
-@media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: portrait) {
-    
+@media only screen and (max-width: 320px) and (min-width: 281px) {
+    /*TOP NAVIGATION*/
+    .topNavClass{
+        display: none;
+    }
+
+    #topNav1{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: landscape) {
