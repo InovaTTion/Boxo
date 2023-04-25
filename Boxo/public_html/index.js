@@ -42,9 +42,6 @@ function carouselMediaQuerie(x) {
     }
 }
 
-carouselMediaQuerie(x);
-x.addEventListener(carouselMediaQuerie);
-
 $(".carousel1").owlCarousel({
     loop: true,
     autoplay: true,
