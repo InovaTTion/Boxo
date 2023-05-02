@@ -29,18 +29,13 @@ $(".carousel").owlCarousel({
             items: 2,
         },
         281: {
-            items: 5,
+            items: 2,
+        },
+        321: {
+            items: 2,
         }
     }
 });
-
-var x = window.matchMedia("(max-width: 280px)");
-
-function carouselMediaQuerie(x) {
-    if(x.matches) {
-
-    }
-}
 
 $(".carousel1").owlCarousel({
     loop: true,
