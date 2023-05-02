@@ -399,6 +399,10 @@
 
 /*MAX-WIDTH 320PX*/
 @media only screen and (max-width: 320px) and (min-width: 281px) {
+    .blackHeadingBig{
+        font-size: 2.5em;
+    }
+    
     /*TOP NAVIGATION*/
     .topNavClass{
         display: none;
@@ -408,12 +412,25 @@
         display: block;
     }
 
+    .classDropdownMenu{
+        height: 39vh;
+    }
+
     /*BOTTOM NAVIGATION*/
     .bottomNavClass{
         display: none;
     }
     
     #idBottomNav1{
+        display: block;
+    }
+    /*HOMEPAGE GRID*/
+    
+    #homeGrid{
+        display: none;
+    }
+
+    #homeGridA{
         display: block;
     }
 }
