@@ -412,6 +412,10 @@
         display: block;
     }
 
+    .topNavClass1{
+        width: 95.05%;
+    }
+
     .classDropdownMenu{
         height: 39vh;
     }
@@ -424,6 +428,7 @@
     #idBottomNav1{
         display: block;
     }
+
     /*HOMEPAGE GRID*/
     
     #homeGrid{
@@ -444,6 +449,28 @@
         width: 45vw;
         height: 20vh;
     }
+
+    /*CONTACT*/
+
+    #socialNetworkDiv{
+        display: none;
+    }
+
+    #contactGrid{
+        display: grid;
+        grid-template-rows: 46% 5% 46%;
+        grid-template-columns: 100%;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    #borderDiv{
+        display: none;
+    }
+
+    #borderDiv1{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: landscape) {
@@ -453,7 +480,50 @@
 /*MAX-WIDTH 480PX*/
 
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: portrait) {
+    .blackHeadingBig{
+        font-size: 3em;
+    }
+    
+    /*TOP NAVIGATION*/
+    .topNavClass{
+        display: none;
+    }
 
+    #topNav1{
+        display: block;
+    }
+
+    .topNavClass1{
+        width: 96.75%;
+    }
+
+    .classDropdownMenu{
+        height: 39vh;
+        width: 34vw;
+    }
+
+    .hr1{
+        width: 31vw;
+    }
+    
+    /*BOTTOM NAVIGATION*/
+    .bottomNavClass{
+        display: none;
+    }
+    
+    #idBottomNav1{
+        display: block;
+    }
+
+    /*HOMEPAGE GRID*/
+    
+    #homeGrid{
+        display: none;
+    }
+
+    #homeGridA{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
