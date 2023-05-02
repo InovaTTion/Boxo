@@ -391,6 +391,7 @@
         left: 0em;
         bottom: 1.3em;
     }
+}
 
 @media only screen and (max-width: 280px) and (orientation: landscape) {
 
@@ -404,6 +405,15 @@
     }
 
     #topNav1{
+        display: block;
+    }
+
+    /*BOTTOM NAVIGATION*/
+    .bottomNavClass{
+        display: none;
+    }
+    
+    #idBottomNav1{
         display: block;
     }
 }
