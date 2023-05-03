@@ -417,7 +417,7 @@
     }
 
     .classDropdownMenu{
-        height: 39vh;
+        height: 44vh;
     }
 
     /*BOTTOM NAVIGATION*/
@@ -489,12 +489,13 @@
         grid-template-columns: 100%;
         grid-template-rows: 33% 33% 33%;
         width: 100%;
-        height: 200vh;
+        height: 250vh;
         margin: 0;
     }
 
     .products{
         width: 100%;
+        height: 65vh;
         position: relative;
     }
 
@@ -611,6 +612,71 @@
     #borderDiv1{
         display: block;
     }
+
+    /*PRODUCTS CATEGORIES, GIFTS PAGE*/
+
+    #productsCat{
+        display: none;
+    }
+
+    #productsCat1{
+        display: block;
+    }
+
+    /*CATEGORIES*/
+
+    .productsDiv3Class{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+        width: 100%;
+        height: 250vh;
+        margin: 0;
+    }
+
+    .products{
+        width: 65%;
+        height: 59vh;
+        position: relative;
+    }
+
+    .descCard{
+        width: 100%;
+        top: 15.2em;
+    }
+
+    .descCard1{
+        width: 100%;
+        top: 15.2em;
+    }
+
+    .productsDiv6Class{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        width: 100%;
+        height: 400vh;
+        margin: 0;
+    }
+
+    .modal{
+        width: 100%;
+        height: auto;
+    }
+
+    .modalPic{
+        width: 100%;
+        height: auto;
+    }
+
+    .modalDesc{
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0em;
+        bottom: 1.3em;
+    }
+}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
