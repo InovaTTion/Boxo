@@ -32,7 +32,7 @@ $(".carousel").owlCarousel({
             items: 2,
         },
         321: {
-            items: 2,
+            items: 5,
         }
     }
 });

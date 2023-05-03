@@ -524,6 +524,28 @@
     #homeGridA{
         display: block;
     }
+
+    /*CONTACT*/
+
+    #socialNetworkDiv{
+        display: none;
+    }
+
+    #contactGrid{
+        display: grid;
+        grid-template-rows: 46% 5% 46%;
+        grid-template-columns: 100%;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    #borderDiv{
+        display: none;
+    }
+
+    #borderDiv1{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
