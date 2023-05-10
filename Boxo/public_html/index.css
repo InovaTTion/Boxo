@@ -514,6 +514,10 @@ a{
     font-family: Aleo;
 }
 
+#socialNetworkDiv{
+    display: none;
+}
+
 /*QUESTIONS*/
 
 #idQuestions{

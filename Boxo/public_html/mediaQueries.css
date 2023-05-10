@@ -691,6 +691,18 @@
     #bottomLogo{
         display: none;
     }
+
+    /*HOME GRID*/
+
+    #homeGrid{
+        height: 180vh;
+    }
+
+    /*CONTACT PAGE*/
+
+    #socialNetworkDiv{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
