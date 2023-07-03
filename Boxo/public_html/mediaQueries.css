@@ -714,6 +714,10 @@
         display: none;
     }
 
+    #bottomLogoSmaller{
+        display: block;
+    }
+
     /*HOME GRID*/
 
     #homeGrid{

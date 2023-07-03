@@ -655,6 +655,10 @@ a{
     cursor: pointer;
 }
 
+#bottomLogoSmaller{
+    display: none;
+}
+
 /*PARTNERS*/
 
 #partnersID{
