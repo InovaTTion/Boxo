@@ -32,6 +32,9 @@ $(".carousel").owlCarousel({
             items: 2,
         },
         321: {
+            items: 4,
+        },
+        481: {
             items: 5,
         }
     }

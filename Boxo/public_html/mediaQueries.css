@@ -692,6 +692,12 @@
         left: 0em;
         bottom: 1.3em;
     }
+
+    /*ABOUT US*/
+
+    .carousel-items{
+        width: 21vw;
+    }
 }
 }
 
