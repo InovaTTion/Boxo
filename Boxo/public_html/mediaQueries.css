@@ -718,6 +718,10 @@
         display: block;
     }
 
+    .bottNavIconsDim{
+        font-size: 3em;
+    }
+
     /*HOME GRID*/
 
     #homeGrid{
