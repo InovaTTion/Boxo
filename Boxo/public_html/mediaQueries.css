@@ -722,6 +722,14 @@
         font-size: 3em;
     }
 
+    #iconINST{
+        display: none;
+    }
+
+    #iconINST1{
+        display: block;
+    }
+
     /*HOME GRID*/
 
     #homeGrid{
