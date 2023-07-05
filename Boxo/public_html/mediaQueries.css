@@ -710,11 +710,15 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
     /*BOTTOM NAVIGATION*/
-    #bottomLogo{
+    .bottomLogoClass{
         display: none;
     }
 
-    #bottomLogoSmaller{
+    /*#bottomLogoSmaller{
+        display: block;
+    }*/
+
+    .bottomLogoSmallerClass{
         display: block;
     }
 
@@ -728,6 +732,18 @@
 
     #iconINST1{
         display: block;
+    }
+
+    .bottomNavGrid1{
+        /*border: thin solid red;*/
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 75% 25%;
+    }
+
+    .inputNewsL{
+        width: 23vw;
     }
 
     /*HOME GRID*/

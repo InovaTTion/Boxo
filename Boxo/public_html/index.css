@@ -655,7 +655,8 @@ a{
     cursor: pointer;
 }
 
-#bottomLogoSmaller{
+
+.bottomLogoSmallerClass{
     display: none;
 }
 
