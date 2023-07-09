@@ -757,6 +757,28 @@
     #socialNetworkDiv{
         display: none;
     }
+
+    /*PRODUCT CATEGORIES*/
+
+    /*PRODUCT CARDS*/
+
+    .whiteHeadingGrids{
+        font-size: 1.4em;
+    }
+
+    .whiteLettersItalic{
+        font-size: 1.1em;
+    }
+
+    .whiteLettersDesc{
+        position: relative;
+        bottom: 0.6em;
+    }
+
+    .descOpen{
+        position: relative;
+        bottom: 0.6em;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
