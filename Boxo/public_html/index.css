@@ -365,8 +365,8 @@ a{
     position: absolute;
     top: 30.7em;
     z-index: 1;
-    transition: all ease .5s;
     display: none;
+    
 }
 
 .descCard1{
@@ -399,7 +399,7 @@ a{
     width: 22vw;
     height: 18.2vh;
     position: absolute;
-    top: 70em;
+    top: 34.5em;
     z-index: 1;
     transition: all ease .5s;
     display: none;
