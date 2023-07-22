@@ -683,3 +683,18 @@ a{
     width: 15vw;
     height: 20vh;
 }
+
+/*BLOG PAGE*/
+#blogMiddle{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100%;
+}
+
+#blogLeftDiv{
+    border: thin solid red;
+}
+
+#blogRightDiv{
+    border: thin solid blue;
+}
