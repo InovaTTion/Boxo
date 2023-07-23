@@ -687,14 +687,32 @@ a{
 /*BLOG PAGE*/
 #blogMiddle{
     display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 100%;
+    grid-template-columns: 99.9%;
+    grid-template-rows: 40% 20% 40%;
+    grid-gap: 0.5em;
+    margin-left: 0.2em;
+    min-height: 200vh;
 }
 
-#blogLeftDiv{
+#blogTopDiv{
     border: thin solid red;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    grid-gap: 0.5em;
 }
 
-#blogRightDiv{
+#blogMiddleDiv{
+    border: thin solid green;
+}
+
+#blogBottomDiv{
     border: thin solid blue;
+}
+
+.bTopClass{
+    border: thin solid orange;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 0.6em;
 }
