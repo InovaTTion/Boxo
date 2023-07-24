@@ -695,7 +695,7 @@ a{
 }
 
 #blogTopDiv{
-    border: thin solid red;
+    /*border: thin solid black;*/
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
@@ -710,7 +710,7 @@ a{
 }
 
 #blogMiddleDiv{
-    border: thin solid green;
+    border: thin solid black;
     width: 99.5%;
 }
 
@@ -723,11 +723,11 @@ a{
 }
 
 #bBottomLeft{
-    border: thin solid red;
+    /*border: thin solid red;*/
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 49% 49%;
-    grid-gap: 0.2em;
+    grid-gap: 0.7em;
 }
 
 #bottTop{
@@ -739,7 +739,15 @@ a{
 }
 
 #bBottomRight{
-    border: thin solid purple;
+    /*border: thin solid purple;*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18.8% 18.8% 18.8% 18.8% 18.8%;
+    grid-gap: 0.5em;
+}
+
+.bottRposts{
+    border: thin solid red;
 }
 
 
