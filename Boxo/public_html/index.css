@@ -724,6 +724,18 @@ a{
 
 #bBottomLeft{
     border: thin solid red;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 49% 49%;
+    grid-gap: 0.2em;
+}
+
+#bottTop{
+    border: thin solid blue;
+}
+
+#bottBottom{
+    border: thin solid blue;
 }
 
 #bBottomRight{
