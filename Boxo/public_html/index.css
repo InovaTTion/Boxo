@@ -703,14 +703,18 @@ a{
 }
 
 .bTopClass{
-    border: thin solid orange;
+    border: thin solid dimgray;
+    border-radius: 0.5em;
+    background-color: aliceblue;
     width: 30vw;
     height: 70vh;
     margin-left: 0.6em;
 }
 
 #blogMiddleDiv{
-    border: thin solid black;
+    border: thin solid dimgray;
+    border-radius: 0.5em;
+    background-color: aliceblue;
     width: 99.5%;
 }
 
@@ -731,11 +735,15 @@ a{
 }
 
 #bottTop{
-    border: thin solid blue;
+    border: thin solid dimgray;
+    border-radius: 0.5em;
+    background-color: aliceblue;
 }
 
 #bottBottom{
-    border: thin solid blue;
+    border: thin solid dimgray;
+    border-radius: 0.5em;
+    background-color: aliceblue;
 }
 
 #bBottomRight{
@@ -747,7 +755,9 @@ a{
 }
 
 .bottRposts{
-    border: thin solid red;
+    border: thin solid dimgray;
+    border-radius: 0.5em;
+    background-color: aliceblue;
 }
 
 
