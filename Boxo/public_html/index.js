@@ -40,12 +40,18 @@ $(".carousel").owlCarousel({
     }
 });
 
-$(".carousel1").owlCarousel({
+/*CAROUSEL BLOG*/
+$(".carouselBlog").owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayHoverPause: true,
+    responsiveClass: true,
     items: 1,
-    mouseDrag: true
+
+    responsive: {
+        0: {
+            items: 1,
+        }
+    }
 });
 
 /*DROPDOWN MENU FOR MEDIA QUERIES*/
