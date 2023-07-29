@@ -15,6 +15,22 @@ function showSlides() {
     setTimeout(showSlides, 4000);
 }
 
+let slideIndexBlog = 0;
+showSlidesBlog();
+
+function showSlidesBlog() {
+    let i;
+    let slidesBlog = document.getElementsByClassName("bTopClass");
+    for(i = 0; i < slidesBlog.length; i++) {
+        slidesBlog[i].style.display = "none"
+    }
+    slideIndexBlog++;
+    if(slideIndexBlog > slidesBlog.length) {slideIndexBlog = 1}
+
+    slidesBlog[slideIndexBlog-1].style.display = "block";
+    setTimeout(showSlidesBlog, 4000);
+}
+
 /*PARTNERS CAROUSEL*/
 $(".carousel").owlCarousel({
     loop: true,

@@ -692,10 +692,10 @@ a{
 
 #blogTopDiv{
     /*border: thin solid black;*/
-    display: flex; 
-    /*grid-template-columns: 33% 33% 33%;
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
-    grid-gap: 0.5em;*/
+    grid-gap: 0.5em;
 }
 
 .bTopClass{
