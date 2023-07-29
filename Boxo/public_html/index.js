@@ -15,7 +15,7 @@ function showSlides() {
     setTimeout(showSlides, 4000);
 }
 
-let slideIndexBlog = 0;
+/*let slideIndexBlog = 0;
 showSlidesBlog();
 
 function showSlidesBlog() {
@@ -29,7 +29,7 @@ function showSlidesBlog() {
 
     slidesBlog[slideIndexBlog-1].style.display = "block";
     setTimeout(showSlidesBlog, 4000);
-}
+}*/
 
 /*PARTNERS CAROUSEL*/
 $(".carousel").owlCarousel({
@@ -67,7 +67,7 @@ $("#blogTopDiv").owlCarousel({
 
     responsive: {
         0: {
-            items: 3,
+            items: 1,
         },
         281: {
             items: 3,
