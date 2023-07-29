@@ -674,10 +674,6 @@ a{
     
 }
 
-.carousel1{
-    display: none;
-}
-
 .carousel-items{
     border: thin solid red;
     width: 15vw;
@@ -696,7 +692,7 @@ a{
 
 #blogTopDiv{
     /*border: thin solid black;*/
-    display: flex;
+    display: flex; 
     /*grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
     grid-gap: 0.5em;*/

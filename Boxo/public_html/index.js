@@ -41,15 +41,20 @@ $(".carousel").owlCarousel({
 });
 
 /*CAROUSEL BLOG*/
-$(".carouselBlog").owlCarousel({
+$("#blogTopDiv").owlCarousel({
     loop: true,
     autoplay: true,
+    autoplayHoverPause: true,
+    items: 5,
+    mouseDrag: true,
     responsiveClass: true,
-    items: 1,
 
     responsive: {
         0: {
-            items: 1,
+            items: 3,
+        },
+        281: {
+            items: 3,
         }
     }
 });
