@@ -688,16 +688,17 @@ a{
     grid-gap: 0.5em;
     margin-left: 0.2em;
     height: 200vh;
-    min-width: 100%;
 }
 
 #blogTopDiv{
-    /*border: thin solid black;*/
-    display: flex;
+    /*border: thin solid black;
+    display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
-    grid-gap: 0.5em;
-    min-width: 100%;
+    grid-gap: 0.5em;*/
+}
+
+.carouselBlog{
 }
 
 .bTopClass{
