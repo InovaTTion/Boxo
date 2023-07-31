@@ -688,6 +688,7 @@ a{
     grid-gap: 0.5em;
     margin-left: 0.2em;
     height: 200vh;
+    min-width: 100%;
 }
 
 #blogTopDiv{
@@ -696,6 +697,7 @@ a{
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
     grid-gap: 0.5em;
+    min-width: 100%;
 }
 
 .bTopClass{
@@ -711,7 +713,7 @@ a{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
-    width: 99.5%;
+    min-width: 100%;
 }
 
 #blogBottomDiv{
