@@ -691,9 +691,9 @@ a{
 }
 
 #blogTopDiv{
-    /*border: thin solid black;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    /*border: thin solid black;*/
+    display: flex;
+    /*grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
     grid-gap: 0.5em;*/
 }
@@ -714,7 +714,6 @@ a{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
-    min-width: 100%;
 }
 
 #blogBottomDiv{
