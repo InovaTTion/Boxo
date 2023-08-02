@@ -758,5 +758,11 @@ a{
     background-color: aliceblue;
 }
 
+/*MESSAGES FOR UNDER CONSTRUCTION AND REGULAR MAINTENANCE*/
+
+.middleMessageClass{
+    text-align: center;
+}
+
 
 
