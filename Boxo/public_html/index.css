@@ -258,6 +258,12 @@ a{
     color: white;
 }
 
+.blackHeadingSmall{
+    color: black;
+    font-family: Aleo;
+    font-size: 2em;
+}
+
 .blackHeading{
     color: black;
     font-family: Aleo;
@@ -272,6 +278,12 @@ a{
     font-size: 4em;
     padding-top: 1em;
     text-align: center;
+}
+
+.blackTextSmall{
+    color: black;
+    font-family: Aleo;
+    font-size: 1em;
 }
 
 /*PRODUCTS CATEGORIES*/
