@@ -754,6 +754,7 @@ a{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
+    text-align: end;
 }
 
 #bBottomRight{
