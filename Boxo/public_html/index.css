@@ -720,6 +720,14 @@ a{
     width: 30vw;
     height: 70vh;
     margin-left: 0.6em;
+    
+}
+
+.bTopImgClass{
+    border: thin solid red;
+    height: 35vh;
+    width: 25vw;
+    margin: auto;
 }
 
 #blogMiddleDiv{
