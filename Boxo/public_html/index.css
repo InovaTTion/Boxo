@@ -159,6 +159,8 @@ a{
     cursor: pointer;
 }
 
+
+
 /*TOP NAVIGATION*/
 
 .topNavClass{
@@ -284,6 +286,19 @@ a{
     color: black;
     font-family: Aleo;
     font-size: 1em;
+}
+
+.blackHeadingBlog{
+    color: black;
+    font-family: Aleo_Bold;
+    padding-left: 0.5em ;
+    font-size: 1.5em;
+}
+
+.blackTextBlog{
+    color: black;
+    font-family: Aleo_Bold;
+    margin: 0.8em ;
 }
 
 /*PRODUCTS CATEGORIES*/
