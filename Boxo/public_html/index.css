@@ -711,7 +711,7 @@ a{
 #blogMiddle{
     display: grid;
     grid-template-columns: 99.9%;
-    grid-template-rows: 36% 20% 44%;
+    grid-template-rows: 37% 20% 43%;
     grid-gap: 0.5em;
     margin-left: 0.2em;
     height: 200vh;
@@ -734,7 +734,7 @@ a{
     border-radius: 0.5em;
     background-color: aliceblue;
     width: 30vw;
-    height: 70vh;
+    height: 72vh;
     margin-left: 0.6em;
     
 }
