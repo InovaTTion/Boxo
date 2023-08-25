@@ -293,12 +293,21 @@ a{
     font-family: Aleo_Bold;
     padding-left: 0.5em ;
     font-size: 1.5em;
+    text-align: start;
 }
 
 .blackTextBlog{
     color: black;
     font-family: Aleo_Bold;
     margin: 0.8em ;
+}
+
+.dateTimeBlog{
+    color: black;
+    font-family: Aleo_Bold;
+    margin: 0.8em ;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /*PRODUCTS CATEGORIES*/
