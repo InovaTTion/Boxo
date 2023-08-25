@@ -720,10 +720,10 @@ a{
 #blogMiddle{
     display: grid;
     grid-template-columns: 99.9%;
-    grid-template-rows: 37% 20% 43%;
+    grid-template-rows: 30% 20% 35%;
     grid-gap: 0.5em;
     margin-left: 0.2em;
-    height: 200vh;
+    height: 250vh;
 }
 
 /*U TRENDU 1 - 2 - 3*/
