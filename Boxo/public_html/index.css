@@ -717,13 +717,22 @@ a{
 }
 
 /*BLOG PAGE*/
+.test{
+    border: thin solid red;
+}
+
+.blackHeadingBlogBig{
+    font-family: Aleo;
+    text-align: center;
+    font-size: 3em;
+}
+
 #blogMiddle{
     display: grid;
     grid-template-columns: 99.9%;
-    grid-template-rows: 33% 25% 42%;
-    grid-gap: 1em;
+    grid-template-rows: 6.3% 25% 6.3% 20% 6.3% 36.1%;
     margin-left: 0.2em;
-    height: 230vh;
+    height: 300vh;
 }
 
 /*U TRENDU 1 - 2 - 3*/
