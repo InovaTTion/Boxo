@@ -767,7 +767,17 @@ a{
 
 .diyStepClass{
     border: thin solid green;
-    width: ;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+.diyUpClass{
+    border: thin solid red;
+}
+
+.diyDownClass{
+    border: thin solid black;
 }
 
 #blogBottomDiv{
