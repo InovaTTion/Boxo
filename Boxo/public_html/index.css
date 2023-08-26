@@ -766,18 +766,41 @@ a{
 }
 
 .diyStepClass{
-    border: thin solid green;
+    /*border: thin solid green;*/
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
 }
 
 .diyUpClass{
-    border: thin solid red;
+    /*border: thin solid red;*/
 }
 
 .diyDownClass{
-    border: thin solid black;
+    /*border: thin solid black;*/
+}
+
+.stepImgClass{
+    border: thin solid purple;
+
+}
+
+#diyUp1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#diyDown2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#diyUp3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
 }
 
 #blogBottomDiv{
