@@ -772,6 +772,14 @@ a{
     grid-template-rows: 50% 50%;
 }
 
+.stepHeadClass{
+    text-align: center;
+}
+
+.stepTxtClass{
+    text-align: center;
+}
+
 .diyUpClass{
     /*border: thin solid red;*/
 }
@@ -782,7 +790,7 @@ a{
 
 .stepImgClass{
     border: thin solid purple;
-
+    border-radius: 0.5em;
 }
 
 #diyUp1{
