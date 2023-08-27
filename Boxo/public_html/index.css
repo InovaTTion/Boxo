@@ -296,9 +296,22 @@ a{
     text-align: start;
 }
 
+.underHeadingBlog{
+    color: black;
+    font-family: Aleo;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.smallUnderHeadingBlog{
+    color: black;
+    font-family: Aleo;
+    text-align: center;
+}
+
 .blackTextBlog{
     color: black;
-    font-family: Aleo_Bold;
+    font-family: Aleo;
     margin: 0.8em ;
 }
 
@@ -730,7 +743,7 @@ a{
 #blogMiddle{
     display: grid;
     grid-template-columns: 99.9%;
-    grid-template-rows: 6.3% 25% 6.3% 20% 6.3% 36.1%;
+    grid-template-rows: 6.3% 25% 6.3% 20% 12.4% 30%;
     margin-left: 0.2em;
     height: 300vh;
 }
@@ -786,6 +799,7 @@ a{
 }
 
 .stepTxtClass{
+    font-family: Aleo;
     text-align: center;
 }
 
