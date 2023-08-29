@@ -854,13 +854,36 @@ a{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.bottSections{
+    /*border: thin solid red;*/
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+}
+
+.sectionTxtClass{
+    border: thin solid yellow;
+}
+
+.sectionImgClass{
+    border: thin solid green;
+}
+
+.#bottTop1{
 }
 
 #bottBottom{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
-    text-align: end;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
 }
 
 #bBottomRight{
