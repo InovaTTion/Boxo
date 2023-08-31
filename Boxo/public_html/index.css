@@ -874,11 +874,12 @@ a{
 }
 
 .sectionTxtClass{
-    border: thin solid yellow;
+    /*border: thin solid yellow;*/
 }
 
 .sectionImgClass{
     border: thin solid green;
+    border-radius: 0.5em;
 }
 
 #bottTop1{
