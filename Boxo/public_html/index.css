@@ -859,10 +859,17 @@ a{
     grid-template-rows: 33% 33% 33%;
 }
 
-.bottSections{
+.bottSectionsGrid1{
     /*border: thin solid red;*/
     display: grid;
     grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+}
+
+.bottSectionsGrid2{
+    /*border: thin solid red;*/
+    display: grid;
+    grid-template-columns: 30% 70%;
     grid-template-rows: 100%;
 }
 
@@ -874,7 +881,7 @@ a{
     border: thin solid green;
 }
 
-.#bottTop1{
+#bottTop1{
 }
 
 #bottBottom{
