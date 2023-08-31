@@ -296,6 +296,16 @@ a{
     text-align: start;
 }
 
+.blackHeadingBlogEnd{
+    color: black;
+    font-family: Aleo_Bold;
+    padding-right: 0.5em ;
+    font-size: 1.5em;
+    text-align: end;
+}
+
+
+
 .underHeadingBlog{
     color: black;
     font-family: Aleo;
@@ -313,6 +323,13 @@ a{
     color: black;
     font-family: Aleo;
     margin: 0.8em ;
+}
+
+.blackTextBlogEnd{
+    color: black;
+    font-family: Aleo;
+    margin: 0.8em ;
+    text-align: end;
 }
 
 .dateTimeBlog{
