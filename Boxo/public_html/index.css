@@ -120,6 +120,10 @@ a{
     color: aquamarine;
 }
 
+.redHover:hover{
+    color: #ff0800;
+}
+
 .blueHoverBckg:hover{
     background-color: aquamarine;
 }
@@ -330,6 +334,14 @@ a{
     font-family: Aleo;
     margin: 0.8em ;
     text-align: end;
+}
+
+.blackHeadingTipsList{
+    color: black;
+    font-family: Aleo_Bold;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.5em;
 }
 
 .dateTimeBlog{
@@ -923,6 +935,7 @@ a{
     border: thin solid dimgray;
     border-radius: 0.5em;
     background-color: aliceblue;
+    text-align: center;
 }
 
 .upcomingImgClass{
