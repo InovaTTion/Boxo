@@ -120,6 +120,10 @@ a{
     color: aquamarine;
 }
 
+.blueHover2:hover{
+    color: #2832c2;
+}
+
 .redHover:hover{
     color: #ff0800;
 }
@@ -338,6 +342,22 @@ a{
 
 .blackHeadingTipsList{
     color: black;
+    font-family: Aleo_Bold;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.redHeadingTopList{
+    color: #ff0800;
+    font-family: Aleo_Bold;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.blueHeadingTipsList{
+    color: #2832c2;
     font-family: Aleo_Bold;
     font-size: 1.2em;
     display: inline-block;
