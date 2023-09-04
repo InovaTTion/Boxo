@@ -56,6 +56,10 @@ html, body{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+@keyframes bend {
+    transform: rotate(15deg);
+}
+
 .frontPicSlides{
     display: none;
 }
@@ -758,6 +762,9 @@ a{
 .bottNavIconsDim{
     font-size: 4em;
     text-align: center;
+    animation-name: bend;
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
 }
 
 .bottNavNewsl{
