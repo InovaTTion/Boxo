@@ -826,11 +826,23 @@ a{
 }
 
 .blackHeadingBlogBig{
-    font-family: Aleo;
+    color: black;
+    font-family: Aleo_Bold;
     text-align: center;
     font-size: 3em;
+    
 }
 
+#diyHeading{
+    display: inline-block;
+    width: 100%;
+}
+
+#futureTips{
+    display: inline-block;
+    width: 100%;
+    padding-top: 1em;
+}
 
 /*#diyHeading:hover{
     animation-name: shake;
@@ -850,6 +862,10 @@ a{
 }
 
 /*U TRENDU 1 - 2 - 3*/
+#inTrebdHeading{
+    display: inline-block;
+}
+
 #blogTopDiv{
     /*border: thin solid black;*/
     display: flex;
