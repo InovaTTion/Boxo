@@ -634,16 +634,19 @@ a{
 
 #iconFB{
     color: blue;
+    transform: rotate(15deg);
     animation: bendLeft 3s infinite 1s;
 }
 
 #iconINST{
+    transform: rotate(-15deg);
     animation: bendRight 3s infinite 2s;
 }
 
 #iconPINT{
     color: red;
-    animation: bendLeft 3s infinite 3s;
+    transform: rotate(15deg);
+    animation: bendLeft 3s infinite 3.1s;
 }
 
 .contactCont{
@@ -829,12 +832,12 @@ a{
 }
 
 
-#diyHeading:hover{
+/*#diyHeading:hover{
     animation-name: shake;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     cursor: pointer;
-}
+}*/
 
 
 
