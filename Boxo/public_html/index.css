@@ -1039,15 +1039,27 @@ a{
 #inTrendMiddle{
     display: grid;
     grid-template-columns: 68% 32%;
-    height: 100em;
+    /*height: 100em;*/
 }
 
 #inTrendArticle{
-    border: thin solid red;
+    border: thin solid blue;
+    /*display: grid;
+    grid-template-rows: 33% 33% 33%;*/
+    min-height: 200vh;
+
+}
+
+#article1{
+    background-color: gray;
+    border-radius: 0.5em;
+    height: 75vh;
+    width: 50vw;
+    margin: auto;
 }
 
 #inTrendSections{
-    border: thin solid black;
+    border: thin solid green;
 }
 
 /*DIY PAGE*/
@@ -1055,7 +1067,7 @@ a{
 /*FUTURE TIPS PAGE*/
 
 #futureArticle{
-    
+
 }
 
 
