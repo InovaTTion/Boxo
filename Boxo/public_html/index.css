@@ -1034,6 +1034,28 @@ a{
 
 }
 
+/*IN TREND PAGE*/
+
+#inTrendMiddle{
+    display: grid;
+    grid-template-columns: 68% 32%;
+    height: 100em;
+}
+
+#inTrendArticle{
+    border: thin solid red;
+}
+
+#inTrendSections{
+    border: thin solid black;
+}
+
+/*DIY PAGE*/
+
+/*FUTURE TIPS PAGE*/
+
+
+
 /*MESSAGES FOR UNDER CONSTRUCTION AND REGULAR MAINTENANCE*/
 
 .middleMessageClass{
