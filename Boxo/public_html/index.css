@@ -1034,7 +1034,17 @@ a{
 
 }
 
-/*IN TREND PAGE*/
+/**************************************************************
+IN TREND PAGE
+**************************************************************/
+
+/*TEXTS AND HOVERS*/
+
+#topListsHeading{
+    display: inline-block;
+}
+
+/**/
 
 #inTrendMiddle{
     display: grid;
@@ -1060,6 +1070,7 @@ a{
 
 #inTrendSections{
     border: thin solid green;
+    text-align: center;
 }
 
 /*DIY PAGE*/
