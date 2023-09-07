@@ -1053,14 +1053,14 @@ IN TREND PAGE
 }
 
 #inTrendArticle{
-    border: thin solid blue;
+    /*border: thin solid blue;*/
     /*display: grid;
     grid-template-rows: 33% 33% 33%;*/
     min-height: 200vh;
 
 }
 
-#article1{
+#inTrendPicture{
     background-color: gray;
     border-radius: 0.5em;
     height: 75vh;
@@ -1069,16 +1069,23 @@ IN TREND PAGE
 }
 
 #inTrendSections{
-    border: thin solid green;
+    /*border: thin solid green;*/
     text-align: center;
 }
 
 /*DIY PAGE*/
 
-/*FUTURE TIPS PAGE*/
+/*FUTURE TRENDS PAGE*/
 
 #futureArticle{
 
+}
+
+#futureTrendPicture{
+    background-color: gray;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
 }
 
 
