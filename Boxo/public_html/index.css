@@ -1075,6 +1075,20 @@ IN TREND PAGE
 
 /*DIY PAGE*/
 
+#diyMiddle{
+    grid-template-columns: 20% 80%;
+    min-height: 100;
+}
+
+#diyPast{
+    border: thin solid green;
+    height: 50em}
+
+
+#diyPresent{    
+    border: thin solid red;
+}
+
 /*FUTURE TRENDS PAGE*/
 
 #futureArticle{
