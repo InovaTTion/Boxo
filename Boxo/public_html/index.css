@@ -1082,14 +1082,38 @@ IN TREND PAGE
 }
 
 #diyPast{
-    border: thin solid green;
+    /*border: thin solid green;*/
     height: 50em}
 
 
 #diyPresent{    
-    border: thin solid red;
-    height: 50em;
+    /*border: thin solid red;*/
+    min-height: 50em;
 }
+
+#diyPageStep1{
+
+}
+
+#diyPageStep2{
+
+}
+
+#diyPageStep3{
+
+}
+
+.diyPageStepsClass{
+    border: thin solid blue;
+    min-height: 90vh;
+}
+
+.diyPageImgClass{
+    border: thin solid yellow;
+    width: ;
+    height: ;
+}
+
 
 /*FUTURE TRENDS PAGE*/
 
