@@ -1092,7 +1092,8 @@ IN TREND PAGE
 }
 
 #diyPageStep1{
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #diyPageStep2{
@@ -1100,11 +1101,12 @@ IN TREND PAGE
 }
 
 #diyPageStep3{
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .diyPageStepsClass{
-    border: thin solid blue;
+    /*border: thin solid blue;*/
     min-height: 90vh;
 }
 
