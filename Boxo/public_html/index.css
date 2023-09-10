@@ -1092,17 +1092,16 @@ IN TREND PAGE
 }
 
 #diyPageStep1{
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
 }
 
 #diyPageStep2{
-    display: flex;
+    display: block;
+    text-align: justify;
 }
 
 #diyPageStep3{
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
 }
 
 .diyPageStepsClass{
@@ -1111,8 +1110,8 @@ IN TREND PAGE
 }
 
 .diyPageImgClass{
-    /*border: thin solid yellow;*/
-    background-color: gray;
+    border: thin solid gray;
+    /*background-color: gray;*/
     border-radius: 0.5em;
     width: 25vw;
     height: 40vh;
@@ -1123,11 +1122,27 @@ IN TREND PAGE
 }
 
 #diyPageImg2{
-    
+    float: left;
 }
 
 #diyPageImg3{
     float: right;
+}
+
+#diyStep1H{
+    margin: 0 0 0 8em;
+}
+
+#diyStep2H{
+    margin: 0 0 0 10em;
+}
+
+#diyStep3H{
+    margin: 0 0 0 8em;
+}
+
+.diyStepsTxt{
+    
 }
 
 
