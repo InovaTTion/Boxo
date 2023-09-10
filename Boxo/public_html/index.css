@@ -1083,7 +1083,15 @@ IN TREND PAGE
 
 #diyPast{
     /*border: thin solid green;*/
-    height: 50em}
+    display: block;
+    min-height: 50em;
+}
+
+.diyPastBorder{
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+    border-radius: 0 0 0.5em 0;
+}
 
 
 #diyPresent{    
@@ -1110,7 +1118,7 @@ IN TREND PAGE
 }
 
 .diyPageImgClass{
-    border: thin solid gray;
+    /*border: thin solid gray;*/
     /*background-color: gray;*/
     border-radius: 0.5em;
     width: 25vw;
