@@ -1162,6 +1162,11 @@ IN TREND PAGE
 
 /*FUTURE TRENDS PAGE*/
 
+#future3Heading{
+    display: flex;
+    justify-content: space-between;
+}
+
 #futureArticle{
 
 }
