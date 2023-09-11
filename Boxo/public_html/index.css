@@ -761,6 +761,12 @@ a{
     margin-left: 2em;
 }
 
+.smallBorderBlack{
+    border-left: thin solid black; 
+    padding: 0 0 0 0.2em;
+    margin-left: 2em;
+}
+
 .bottNavSmedia{
     /*border: thin solid white;*/
     display: grid;
