@@ -1073,6 +1073,12 @@ IN TREND PAGE
     text-align: center;
 }
 
+.inTrendBorder{
+    border-left: thin solid black;
+    border-bottom: thin solid black;
+    border-radius: 0 0 0 0.5em;
+}
+
 /*DIY PAGE*/
 
 #diyMiddle{
