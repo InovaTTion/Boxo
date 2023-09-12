@@ -1222,6 +1222,15 @@ GIFTING TIPS
     background-color: aliceblue;
 }
 
+.middleListPicture{
+    border: thin solid red;
+    border-radius: 0.5em;
+    height: 70vh;
+    width: 95%;
+    margin: auto;
+
+}
+
 
 
 /*MESSAGES FOR UNDER CONSTRUCTION AND REGULAR MAINTENANCE*/
