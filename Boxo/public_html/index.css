@@ -1079,7 +1079,7 @@ IN TREND PAGE
     text-align: center;
 }
 
-.inTrendBorder{
+.leftBorder{
     border-left: thin solid black;
     border-bottom: thin solid black;
     border-radius: 0 0 0 0.5em;
@@ -1099,7 +1099,7 @@ IN TREND PAGE
     min-height: 50em;
 }
 
-.diyPastBorder{
+.rightBorder{
     border-right: thin solid black;
     border-bottom: thin solid black;
     border-radius: 0 0 0.5em 0;
@@ -1197,6 +1197,29 @@ GIFTING TIPS
     width: 80vw;
     height: 80vh;
     margin: auto;
+}
+
+/*TOP LISTS PAGE*/
+
+#topListsMiddle{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    min-height: 200vh;
+}
+
+#leftList{
+    /*border: thin solid blue;*/
+    border-radius: 0.5em;
+}
+
+#rightList{
+    /*border: thin solid blue;*/
+    border-radius: 0.5em;
+}
+
+#presentList{
+    border-radius: 0.5em;
+    background-color: aliceblue;
 }
 
 
