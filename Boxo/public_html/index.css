@@ -1184,6 +1184,21 @@ IN TREND PAGE
     margin: auto;
 }
 
+/*
+GIFTING TIPS
+*/
+
+#tipsArticle{
+
+}
+
+#tipsPicture{
+    background-color: gray;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
 
 
 /*MESSAGES FOR UNDER CONSTRUCTION AND REGULAR MAINTENANCE*/
