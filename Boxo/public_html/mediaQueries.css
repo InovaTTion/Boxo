@@ -2,6 +2,14 @@
 **************************MEDIA QUERIES**************************
 ****************************************************************/
 
+@keyframes bendRight {
+    50% {transform: rotate(15deg);}
+}
+
+@keyframes bendLeft{
+    50% {transform: rotate(-15deg);}
+}
+
 /*MAX-WIDTH 280PX ORIENTATION PORTRAIT*/
 
 #topNav1{
@@ -287,6 +295,10 @@
     
     #idBottomNav1{
         display: block;
+    }
+
+    .bottNavIconsDim1{
+        animation: bendLeft 3s infinite 1s;
     }
 
     /*PRODUCTS CATEGORIES, GIFTS PAGE*/
@@ -590,6 +602,7 @@
     #iconFB{
         position: relative;
         right: 0.7em;
+        animation: bendLeft 3s infinite 1s;
     }
 
     #iconINST{
