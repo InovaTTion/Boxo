@@ -839,9 +839,15 @@ a{
     
 }
 
+#diyHeadCont{
+    text-align: center;
+}
+
 #diyHeading{
+    /*border: thin solid red;*/
     display: inline-block;
-    width: 100%;
+    width: 20vw;
+    margin: auto;
 }
 
 #futureTips{
@@ -865,11 +871,16 @@ a{
     grid-template-rows: 5% 21% 7% 16% 10% 41%;
     margin-left: 0.2em;
     height: 170em;
+    
 }
 
 /*U TRENDU 1 - 2 - 3*/
-#inTrebdHeading{
+#inTrendHeading{
+    /*border: thin solid red;*/
     display: inline-block;
+    height: 8vh;
+    width: 16vw;
+    margin: auto;
 }
 
 #blogTopDiv{
