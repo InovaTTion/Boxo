@@ -1066,7 +1066,19 @@ IN TREND PAGE
 
 }
 
-#inTrendPicture{
+#inTrendPicture1{
+    
+}
+
+#inTrendPicture2{
+
+}
+
+#inTrendPicture1{
+    
+}
+
+.inTrendPictureClass{
     background-color: gray;
     border-radius: 0.5em;
     height: 75vh;
@@ -1177,7 +1189,31 @@ IN TREND PAGE
 
 }
 
-#futureTrendPicture{
+#futureTrendPicture1{
+    
+}
+
+#futureTrendPicture2{
+
+}
+
+#futureTrendPicture3{
+
+}
+
+#futureTrendPicture4{
+    
+}
+
+#futureTrendPicture5{
+    
+}
+
+#futureTrendPicture6{
+    
+}
+
+.futureTrendPictureClass{
     background-color: gray;
     width: 80vw;
     height: 80vh;
