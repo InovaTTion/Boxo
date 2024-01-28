@@ -761,6 +761,10 @@
         display: block;
     }
 
+    .borderSocial{
+        height: 15vh;
+    }
+
     .bottomNavGrid1{
         /*border: thin solid red;*/
         text-align: center;
