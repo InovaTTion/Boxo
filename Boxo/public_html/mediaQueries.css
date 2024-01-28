@@ -726,6 +726,11 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+    /*TOP NAVIGATION*/
+    .topNavClass{
+        height: 9vh;
+    }
+    
     /*BOTTOM NAVIGATION*/
     .bottomLogoClass{
         display: none;
