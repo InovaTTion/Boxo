@@ -732,6 +732,11 @@
     }
     
     /*BOTTOM NAVIGATION*/
+
+    .bottomNavClass{
+        height: 34vh;
+    }
+
     .bottomLogoClass{
         display: none;
     }
