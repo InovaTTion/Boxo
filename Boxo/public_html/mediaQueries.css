@@ -848,16 +848,30 @@
     }
 
     .descCard{
-        
+        height: 10.6vh;
+        width: 29.99vw;
+    }
+
+    .descCard1{
+        height: 10.6vh;
+        width: 29.99vw;
     }
 
     .descCard11{
-        top: 57em;
+        top: 68em;
+        height: 10.6vh;
+        width: 29.99vw;
     }
 
     .descCard2{
-        height: 22vh;
-        top: 39em;
+        height: 10.6vh;
+        width: 29.99vw;
+        top: 39.2em;
+    }
+
+    .products{
+        height: 37vh;
+        width: 30vw;
     }
 }
 
