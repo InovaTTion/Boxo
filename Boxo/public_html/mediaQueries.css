@@ -198,6 +198,18 @@
 
 /*PRODUCT CATEGORIES, GIFTS PAGE*/
 
+#imgCat11{
+    visibility: hidden;
+}
+
+#imgCat21{
+    visibility: hidden;
+}
+
+#imgCat31{
+    visibility: hidden;
+}
+
 #productsCat1{
     display: none;
 }
@@ -790,6 +802,30 @@
     }
 
     /*PRODUCT CATEGORIES*/
+
+    #imgCat1{
+        display: none;
+    }
+
+    #imgCat11{
+        visibility: visible;
+    }
+
+    #imgCat2{
+        display: none;
+    }
+
+    #imgCat21{
+        visibility: visible;
+    }
+
+    #imgCat3{
+        display: none;
+    }
+
+    #imgCat31{
+        visibility: visible;
+    }
 
     /*PRODUCT CARDS*/
 

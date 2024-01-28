@@ -434,6 +434,7 @@ a{
     grid-template-rows: 45% 55%;
 }
 
+
 #collectionCat{
     display: grid;
     grid-template-columns: 100%;
