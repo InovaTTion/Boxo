@@ -881,8 +881,35 @@
 
 /*MAX-WIDTH 1024PX*/
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
-    
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /*PRODUCT CARDS*/
+
+    .products{
+        height: 39.5vh;
+        width: 30vw;
+    }
+
+    .descCard{
+        height: 13vh;
+        width: 29.99vw;
+    }
+
+    .descCard1{
+        height: 13.2vh;
+        width: 29.999vw;
+    }
+
+    .descCard11{
+        top: 68em;
+        height: 13vh;
+        width: 29.999vw;
+    }
+
+    .descCard2{
+        height: 13vh;
+        width: 29.99vw;
+    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
