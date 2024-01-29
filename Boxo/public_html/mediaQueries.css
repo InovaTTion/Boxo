@@ -659,6 +659,16 @@
 
     #homeGridA{
         display: block;
+        height: 160vh;
+    }
+
+    .homeGridsA{
+        height: 50vh;
+    }
+
+    .pics1{
+        padding: 1em;
+        border-radius: 2em;
     }
 
     /*CONTACT*/
@@ -700,24 +710,38 @@
         grid-template-columns: 100%;
         grid-template-rows: 33% 33% 33%;
         width: 100%;
-        height: 250vh;
+        height: 140vh;
         margin: 0;
     }
 
     .products{
-        width: 65%;
-        height: 59vh;
+        width: 85%;
+        height: 40vh;
         position: relative;
     }
 
     .descCard{
         width: 100%;
+        height: 13vh;
         top: 15.2em;
     }
 
     .descCard1{
         width: 100%;
+        height: 13vh;
         top: 15.2em;
+    }
+
+    .descCard11{
+        top: 15em;
+        width: 100%;
+        height: 13.4vh;
+    }
+
+    .descCard2{
+        top: 15em;
+        width: 100%;
+        height: 14vh;
     }
 
     .productsDiv6Class{
@@ -725,7 +749,7 @@
         grid-template-columns: 100%;
         grid-template-rows: 20% 20% 20% 20% 20%;
         width: 100%;
-        height: 400vh;
+        height: 220vh;
         margin: 0;
     }
 
