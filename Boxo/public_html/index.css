@@ -163,6 +163,11 @@ a{
     transition: all ease .2s;
 }
 
+.popHoverLess:hover{
+    transform: scale(1.1);
+    transition: all ease .5s;
+}
+
 .rotateHoverLeft:hover{
     transform: scale(1.1) rotate(-10deg);
     transition: all ease .4s;

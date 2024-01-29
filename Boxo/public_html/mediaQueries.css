@@ -418,8 +418,68 @@
 
     /*BLOG PAGE*/
 
+    #inTrendHeading{
+        /*border: thin solid red;*/
+        width: 80vw;
+        height: 10vh;
+    }
+
+    #blogMiddle{
+        height: auto;
+        /*grid-template-rows: 3% 27% 3% 16% 10% 41%;*/
+        display: block;
+    }
+
     #blogTopDiv{
+        display: block;
+    }
+
+    .bTopClass{
+        width: 84vw;
+        height: 120vh;
+    }
+
+    #blogMiddleDiv{
+        display: block;
         
+    }
+
+    #bottTop{
+        display: block;
+    }
+
+    .bottSectionsGrid1{
+        display: block;
+    }
+
+    .bottSectionsGrid2{
+        display: block;
+    }
+
+    .blackHeadingBlogEnd{
+        margin-left: 22%;
+
+    }
+
+    .sectionImgClass{
+        height: 40vh;
+    }
+
+    .diyStepClass{
+        display: block;
+        
+    }
+
+    #future3Heading{
+        display: block;
+    }
+
+    #blogBottomDiv{
+        display: block;
+    }
+
+    #bBottomLeft{
+        display: block;
     }
 
 }
