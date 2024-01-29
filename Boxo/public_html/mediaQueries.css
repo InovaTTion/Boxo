@@ -468,6 +468,16 @@
 
     #homeGridA{
         display: block;
+        height: 180vh;
+    }
+
+    .homeGridsA{
+        height: 55vh;
+    }
+
+    .pics1{
+        padding: 1em;
+        border-radius: 2em;
     }
 
     /*ABOUT US*/
