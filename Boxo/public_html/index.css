@@ -773,11 +773,7 @@ a{
     margin-left: 2em;
 }
 
-.smallBorderBlack{
-    border-left: thin solid black; 
-    padding: 0 0 0 0.2em;
-    margin-left: 2em;
-}
+
 
 .bottNavSmedia{
     /*border: thin solid white;*/
@@ -1204,8 +1200,23 @@ IN TREND PAGE
 /*FUTURE TRENDS PAGE*/
 
 #future3Heading{
+    /*border: thin solid red;*/
     display: flex;
     justify-content: space-between;
+}
+
+#nextTrendsHeading{
+    margin-left: 4em;
+}
+
+#advicesHeading{
+    margin-left: 4em;
+}
+
+.smallBorderBlack{
+    border-left: thin solid black; 
+    padding: 0 0 0 0.2em;
+    margin-left: 2em;
 }
 
 #futureArticle{

@@ -422,12 +422,14 @@
         /*border: thin solid red;*/
         width: 80vw;
         height: 10vh;
+        margin-left: 0.3em;
     }
 
     #blogMiddle{
         height: auto;
         /*grid-template-rows: 3% 27% 3% 16% 10% 41%;*/
         display: block;
+    
     }
 
     #blogTopDiv{
@@ -465,6 +467,11 @@
         height: 40vh;
     }
 
+    #diyHeading{
+        /*border: thin solid red;*/
+        width: 60vw;
+    }
+
     .diyStepClass{
         display: block;
         
@@ -472,6 +479,24 @@
 
     #future3Heading{
         display: block;
+        height: 20vh;
+    }
+
+    .smallBorderBlack{
+        display: none;
+
+    }
+
+    #nextTrendsHeading{
+        margin-left: 2em;
+    }
+
+    #topListsHeading{
+        margin-left: 4em;
+    }
+
+    #advicesHeading{
+        margin-left: 1.5em;
     }
 
     #blogBottomDiv{
