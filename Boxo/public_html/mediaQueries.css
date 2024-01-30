@@ -452,8 +452,8 @@
     }
 
     #blogMiddleDiv{
-        display: block;
-        
+        display: flex;
+        flex-direction: column;
     }
 
     #bottTop{
@@ -483,8 +483,8 @@
     }
 
     .diyStepClass{
-        display: block;
-        
+        display: flex;
+        flex-direction: column;
     }
 
     #future3Heading{
@@ -684,6 +684,106 @@
         position: relative;
         left: 0em;
         bottom: 1.3em;
+    }
+
+    /*BLOG PAGE*/
+
+    #inTrendHeading{
+        /*border: thin solid red;*/
+        width: 99%;
+        margin-top: 0.3em;
+    }
+
+    #blogMiddle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    #blogTopDiv{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 205vh;
+    }
+
+    .bTopClass{
+        margin-left: 0;
+        width: 99%;
+        height: 65vh;
+    }
+
+    .bTopImgClass{
+        width: 90%;
+    }
+
+    #diyHeading{
+        /*border: thin solid red;*/
+        width: 99%;
+    }
+
+    #blogMiddleDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120vh;
+    }
+
+    .diyStepClass{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #future3Heading{
+        /*border: thin solid red;*/
+        flex-direction: column;
+    }
+
+    #nextTrendsHeading{
+        margin-left: 1em;
+    }
+
+    #advicesHeading{
+        margin-left: 1em;
+    }
+
+    #blogBottomDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bBottomLeft{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bBottomRight{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bottTop{
+        display: block;
+    }
+
+    #bottBottom{
+        display: block;
+    }
+
+    .bottSectionsGrid1{
+        display: block;
+    }
+
+    .bottSectionsGrid2{
+        display: block;
+    }
+
+    .sectionImgClass{
+        height: 30vh;
+    }
+
+    .blackHeadingBlogEnd{
+        margin-left: 33%;
     }
 }
 
