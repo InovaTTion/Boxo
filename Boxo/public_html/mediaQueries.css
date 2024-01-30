@@ -1228,6 +1228,101 @@
         height: 37vh;
         width: 30vw;
     }
+
+    /*BLOG PAGE*/
+
+    #blogMiddle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    #inTrendHeading{
+        /*border: thin solid red;*/
+        width: 99%;
+    }
+
+    #blogTopDiv{
+        
+    }
+
+    .bTopClass{
+        height: auto;
+    }
+
+    #diyHeading{
+        /*border: thin solid red;*/
+        width: 99%;
+    }
+
+    #blogMiddleDiv{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .diyStepClass{
+        height: 100%;
+    }
+
+    #diyDown1{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #diyUp2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #diyDown3{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .stepTxtClass{
+        font-size: 1.3em;
+    }
+
+    #future3Heading{
+        justify-content: space-around;
+        margin-bottom: 0.5em;
+        font-size: 1.3em;
+    }
+
+    .smallUnderHeadingBlog{
+        font-size: 1.2em;
+    }
+
+    #nextTrendsHeading{
+        margin-left: 0;
+    }
+
+    #advicesHeading{
+        margin-left: 0;
+    }
+
+    #blogBottomDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blackTextBlog{
+        font-size: 1.3em;
+    }
+
+    .blackTextBlogEnd{
+        font-size: 1.3em;
+    }
+
+    .blackHeadingTipsList{
+        font-size: 1.5em;
+    }
+
+    .orangeHeading{
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
