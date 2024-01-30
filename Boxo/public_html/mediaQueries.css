@@ -1049,6 +1049,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: 150vh;
+    }
+
+    .bottRposts{
+        height: 30vh;
     }
 
     #bottTop{
