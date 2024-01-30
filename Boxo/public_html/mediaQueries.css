@@ -427,18 +427,28 @@
 
     #blogMiddle{
         height: auto;
-        /*grid-template-rows: 3% 27% 3% 16% 10% 41%;*/
-        display: block;
+        /*grid-template-rows: 3% 27% 3% 16% 10% 41%;
+        display: block;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     
     }
 
     #blogTopDiv{
-        display: block;
+        flex-direction: column;
+        height: 265vh;
+        justify-content: space-between;
     }
 
     .bTopClass{
-        width: 84vw;
-        height: 120vh;
+        width: 92.5vw;
+        height: 85vh;
+        margin-left: 0;
+    }
+
+    .bTopImgClass{
+        width: 80vw;
     }
 
     #blogMiddleDiv{
