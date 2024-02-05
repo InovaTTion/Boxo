@@ -10,8 +10,6 @@
     50% {transform: rotate(-15deg);}
 }
 
-/*MAX-WIDTH 280PX ORIENTATION PORTRAIT*/
-
 #topNav1{
     display: none;
 }
@@ -251,16 +249,7 @@
     border: thin solid yellow;
 }
 
-
-
-
-
-
-
-
-
-
-/*SMALL*/
+/*SMALL GALAXY FOLD*/
 
 @media only screen and (max-width: 280px) {
 
@@ -520,6 +509,34 @@
     #bBottomLeft{
         display: block;
     }
+
+    /*IN TREND PAGE*/
+
+    #inTrendMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #inTrendSections{
+        /*display: flex;
+        flex-direction: column;
+        height: auto;*/
+    }
+
+    .inTrendPictureClass{
+        height: 40vh;
+        width: 80vw;
+    }
+
+    #topListsHeading{
+        /*border: thin solid red;*/
+        font-size: 2em;
+        position: relative;
+        right: 2em;
+    }
+
+
 
 }
 
