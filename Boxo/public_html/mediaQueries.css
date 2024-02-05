@@ -1364,6 +1364,12 @@
     .orangeHeading{
         font-size: 1.5em;
     }
+
+    /*IN TREND PAGE*/
+
+    .inTrendPictureClass{
+        height: 50vh;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/
