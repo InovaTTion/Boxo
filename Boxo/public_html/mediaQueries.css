@@ -263,6 +263,8 @@
 /*SMALL*/
 
 @media only screen and (max-width: 280px) {
+
+
     .blackHeadingBig{
         font-size: 2em;
     }
@@ -426,13 +428,12 @@
     }
 
     #blogMiddle{
-        height: auto;
         /*grid-template-rows: 3% 27% 3% 16% 10% 41%;
         display: block;*/
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-    
+        height: auto;
+        
     }
 
     #blogTopDiv{
@@ -519,12 +520,8 @@
 
 }
 
-@media only screen and (max-width: 280px) and (orientation: landscape) {
-
-}
-
 /*MAX-WIDTH 320PX*/
-@media only screen and (max-width: 320px) and (min-width: 281px) {
+@media only screen and (min-width: 281px) and (max-width: 320px) {
     .blackHeadingBig{
         font-size: 2.5em;
     }
@@ -701,6 +698,7 @@
         height: auto;
     }
 
+
     #blogTopDiv{
         flex-direction: column;
         justify-content: space-between;
@@ -787,9 +785,6 @@
     }
 }
 
-@media only screen and (min-width: 281px) and (max-width: 320px) and (orientation: landscape) {
-
-}
 
 /*MAX-WIDTH 480PX*/
 
@@ -1325,13 +1320,19 @@
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-    
-}
-
 /*MAX-WIDTH 1024PX*/
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /*TOP NAVIGATION*/
+
+    .whiteLettersTopNav{
+        font-size: 1.3em;
+    }
+    
+    .topNavClass{
+        height: 10vh;
+    }
+    
     /*PRODUCT CARDS*/
 
     .products{
@@ -1362,6 +1363,31 @@
 
     /*BLOG PAGE*/
 
+    .blackHeadingBlog{
+        font-size: 2em;
+    }
+
+    .blackHeadingBlogEnd{
+        font-size: 2em;
+        margin-left: 45.5%;
+    }
+
+    .blackHeadingTipsList{
+        font-size: 1.3em;
+    }
+
+    .orangeHeading{
+        font-size: 1.3em;
+    }
+
+    .blackTextBlog{
+        
+    }
+
+    .blackTextBlogEnd{
+        
+    }
+
     #blogMiddle{
         display: flex;
         flex-direction: column;
@@ -1369,18 +1395,212 @@
         height: auto;
     }
 
+    #inTrendHeading{
+        width: 100%;
+        padding-top: 0.5em;
+    }
+
+    #blogTopDiv{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .bTopClass{
+        width: 35vw;
+    }
+
+    #blogMiddleDiv{
+        height: 41vh;
+    }
+
+    #diyHeading{
+        width: 100%;
+    }
+
+    #future3Heading{
+        margin-bottom: 0.5em;
+        justify-content: space-evenly;
+    }
+
+    .bottomNavClass{
+        height: 40vh;
+    }
+
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-    
+@media only screen and(min-width: 1025px) and (max-width: 1439px) {
+
 }
 
-/*MIN WIDTH 1025PX*/
 
-@media only screen and (min-width: 1025px) and (orientation: portrait) {
+/*MIN WIDTH 1440PX MAX-WIDTH 2559PX*/
+
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
     
+    .whiteLettersTopNav{
+        font-size: 1.6em;
+    }
+
+    .topNavClass{
+        width: 99%;
+    }
+    
+    /*BLOG*/
+    
+    #inTrendHeading{
+        height: 10vh;
+        width: 100%;
+        padding-top: 1em;
+    }
+
+    #blogTopDiv{
+        justify-content: space-around;
+    }
+
+    .bTopClass{
+        width: 30vw;
+        margin-left: 0;
+    }
+
+    #blogMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #blogMiddleDiv{
+        height: 50vh;
+    }
+
+    #future3Heading{
+        padding-bottom: 1em;
+        justify-content: space-evenly;
+    }
+
+    #blogBottomDiv{
+        height: 150vh;
+    }
+
+    /*PRODUCTS*/
+
+    #productsCat{
+        margin-top: 2.5em;
+    }
+
+    .products{
+        height: 39vh;
+    }
+
+    .descCard{
+        height: 13vh;
+    }
+
+    #bottomNav{
+        height: 40vh;
+    }
+
 }
 
-@media only screen and (min-width: 1025px) and (orientation: landscape) {
-    
+/*MIN WIDTH 2560PX*/
+
+@media only screen and (min-width: 2560px) {
+     
+     .whiteLettersTopNav{
+        font-size: 1.9em;
+     }
+
+     .blackHeadingBlogBig{
+        font-size: 4em;
+     }
+
+     .blackHeadingBlog{
+        font-size: 2.2em;
+     }
+
+     .stepTxtClass{
+        font-size: 1.5em;
+     }
+
+     .blackHeadingBlogEnd{
+        font-size: 2.2em;
+     }
+
+     .smallUnderHeadingBlog{
+        font-size: 1.7em;
+     }
+
+     .underHeadingBlog{
+        font-size: 2em;
+     }
+
+     .blackTextBlog{
+        font-size: 1.7em;
+     }
+
+     .blackTextBlogEnd{
+        font-size: 1.7em;
+     }
+
+     .blackHeadingTipsList{
+        font-size: 2.2em;
+     }
+
+     .orangeHeading{
+        font-size: 2.2em;
+     }
+
+     /*NAVIGATION BARS*/
+
+     .topNavClass{
+        width: 99.5%;
+     }
+
+     #leftDivTopNav{
+        align-items: center;
+     }
+
+     #rightDivTopNav{
+        align-items: center;   
+     }
+
+     .whiteHeadingGrids{
+        font-size: 2.5em;
+     }
+
+     .bottLinks{
+        font-size: 1.5em;
+     }
+
+     .inputNewsL{
+        font-size: 2.5em;
+        height: auto;
+        width: auto;
+     }
+
+     .inputNewsLBtn{
+        font-size: 2em;
+     }
+
+     /*BLOG*/
+
+     #inTrendHeading{
+        width: 100%;
+        margin-top: 1em;
+     }
+
+     .bTopClass{
+        height: 90vh;
+     }
+
+     #blogMiddleDiv{
+        height: 80vh;
+     }
+
+     #future3Heading{
+        padding-bottom: 0.5em;
+     }
+
+     #blogBottomDiv{
+        height: 250vh;
+     }
 }
