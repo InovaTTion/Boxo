@@ -804,6 +804,19 @@
     .blackHeadingBlogEnd{
         margin-left: 33%;
     }
+
+    /*IN TREND PAGE*/
+
+    #inTrendMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .inTrendPictureClass{
+        height: 40vh;
+        width: 80vw;
+    }
 }
 
 
@@ -1100,6 +1113,19 @@
 
     .sectionImgClass{
         height: 30vh;
+    }
+
+    /*IN TREND PAGE*/
+
+    #inTrendMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .inTrendPictureClass{
+        height: 40vh;
+        width: 80vw;
     }
 }
 
