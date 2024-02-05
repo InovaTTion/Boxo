@@ -455,6 +455,7 @@
     #blogMiddleDiv{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     #bottTop{
@@ -511,7 +512,9 @@
     }
 
     #blogBottomDiv{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
 
     #bBottomLeft{
@@ -748,6 +751,7 @@
     #blogBottomDiv{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     #bBottomLeft{
@@ -1006,6 +1010,7 @@
     #blogMiddleDiv{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .diyStepClass{
@@ -1032,6 +1037,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: auto;
     }
 
     #bBottomLeft{
@@ -1078,10 +1084,6 @@
     .sectionImgClass{
         height: 30vh;
     }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
-    
 }
 
 /*MAX-WIDTH 768PX*/
@@ -1301,6 +1303,7 @@
     #blogBottomDiv{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .blackTextBlog{
