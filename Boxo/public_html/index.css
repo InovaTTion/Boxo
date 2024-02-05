@@ -1165,7 +1165,7 @@ IN TREND PAGE
 }
 
 .diyPageImgClass{
-    /*border: thin solid gray;*/
+    border: thin solid gray;
     /*background-color: gray;*/
     border-radius: 0.5em;
     width: 25vw;

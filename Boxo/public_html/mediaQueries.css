@@ -536,6 +536,70 @@
         right: 2em;
     }
 
+    /*DIY PAGE*/
+
+    #diyMiddle{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #diyPresent{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    #diyStep1H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep2H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep3H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    .diyPageStepsClass{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #diyPageStep1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    .diyPageImgClass{
+        width: 99%;
+    }
+
 
 
 }
@@ -817,6 +881,79 @@
         height: 40vh;
         width: 80vw;
     }
+
+    .arrowBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.3em;
+        height: 2em;
+     }
+
+     /*DIY PAGE*/
+
+     #diyMiddle{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #diyPresent{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    #diyStep1H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep2H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep3H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    .diyPageStepsClass{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #diyPageStep1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    .diyPageImgClass{
+        width: 99%;
+    }
+
 }
 
 
@@ -1127,6 +1264,78 @@
         height: 40vh;
         width: 80vw;
     }
+
+    .arrowBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.5em;
+        height: 2em;
+     }
+
+     /*DIY PAGE*/
+
+     #diyMiddle{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #diyPresent{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    #diyStep1H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep2H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    #diyStep3H{
+        /*border: thin solid red;*/
+        text-align: center;
+        margin: auto;
+    }
+
+    .diyPageStepsClass{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #diyPageStep1{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #diyPageStep3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    .diyPageImgClass{
+        width: 99%;
+    }
 }
 
 /*MAX-WIDTH 768PX*/
@@ -1370,6 +1579,14 @@
     .inTrendPictureClass{
         height: 50vh;
     }
+
+    /*DIY PAGE*/
+
+    .diyPageStepsClass{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/
@@ -1474,6 +1691,16 @@
         justify-content: space-evenly;
     }
 
+    /*IN TREND PAGE*/
+
+    .arrowBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.5em;
+        height: 2em;
+     }
+
     .bottomNavClass{
         height: 40vh;
     }
@@ -1532,6 +1759,16 @@
     #blogBottomDiv{
         height: 150vh;
     }
+
+    /*IN TREND PAGE*/
+
+    .arrowBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.5em;
+        height: 3em;
+     }
 
     /*PRODUCTS*/
 
@@ -1655,4 +1892,13 @@
      #blogBottomDiv{
         height: 250vh;
      }
+
+     .arrowBlog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 2em;
+        height: 2em;
+     }
+
 }
