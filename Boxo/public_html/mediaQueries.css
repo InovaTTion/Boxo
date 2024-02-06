@@ -1587,6 +1587,37 @@
         flex-direction: column;
         height: auto;
     }
+
+    #diyPageStep1{
+        display: flex;
+        text-align: justify;
+    }
+
+    #diyPageStep2{
+        display: flex;
+    }
+
+    #diyPageStep3{
+        display: flex;
+        text-align: justify;
+    }
+
+    .diyPageImgClass{
+        width: 93%;
+        margin-left: 1em;
+    }
+
+    #diyStep1H{
+        margin: auto;
+    }
+
+    #diyStep2H{
+        margin: auto;
+    }
+
+    #diyStep3H{
+        margin: auto;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/

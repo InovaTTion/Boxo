@@ -1148,6 +1148,7 @@ IN TREND PAGE
 
 #diyPageStep1{
     display: block;
+    text-align: justify;
 }
 
 #diyPageStep2{
@@ -1157,6 +1158,7 @@ IN TREND PAGE
 
 #diyPageStep3{
     display: block;
+    text-align: justify;
 }
 
 .diyPageStepsClass{
