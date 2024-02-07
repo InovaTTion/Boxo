@@ -115,6 +115,14 @@ html, body{
     margin-left: 0.5em;
 }
 
+.blackLettersDescBig{
+    color: black;
+    font-family: Aleo;
+    text-align: center;
+    float: left;
+    margin-left: 0.5em;
+}
+
 .whiteHeadingGrids{
     color: white;
     font-family: Aleo;
