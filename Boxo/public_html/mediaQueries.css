@@ -33,12 +33,13 @@
     border: thin solid aquamarine;
     border-radius: 0.5em;
     display: none;
-    width: 50vw;
+    width: 93%;
     height: 36vh;
     z-index: 3;
     position: fixed;
     top: 5em;
     left: 0.5em;
+    text-align: center;
 }
 
 .topNavClas11{
@@ -49,7 +50,6 @@
     font-family: Aleo;
     color: white;
     font-size: 1.3em;
-    margin: 0 0 0 1.6em;
 }
 
 .hr1{
