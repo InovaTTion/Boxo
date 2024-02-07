@@ -122,6 +122,13 @@ html, body{
     cursor: pointer;
 }
 
+.whiteHeadingGridsHP{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    cursor: pointer;
+}
+
 .whiteLettersGridText{
     color: white;
     font-family: Aleo;
@@ -207,31 +214,37 @@ a{
     background-color: white;
     border: thin solid aquamarine;
     border-radius: 1em;
-    width: 98.75%;
+    width: 99%;
     height: 11vh;
     position: fixed;
     top: 1;
     z-index: 2;
-    display: grid;
+    /*display: grid;
     grid-template-columns: 40% 20% 40%;
-    grid-template-rows: 100%;
+    grid-template-rows: 100%;*/
+    display: flex;
+    flex-direction: row;
 }
 
 #leftDivTopNav{
+    border: thin solid black;
     background-color: black;
     border-radius: 1em 0 0 1em;
     padding: 0.6em;
     display: flex;
     flex-direction: row;
     z-index: 2;
+    width: 100%;
 }
 
 #middleDivTopNav{
+    border: thin solid black;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
+    width: 100%;
 }
 
 #rightDivTopNav{
@@ -241,6 +254,7 @@ a{
     display: flex;
     flex-direction: row-reverse;
     z-index: 2;
+    width: 100%;
 }
 
 #frontPicture{
@@ -454,11 +468,13 @@ a{
 }
 
 .productGridPic{
+    border: thin solid red;
     text-align: center;
+    
 }
 
 .productGridText{
-
+    text-align: center;
 }
 
 .popPictureHover:hover{
