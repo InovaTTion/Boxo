@@ -600,6 +600,15 @@
         width: 99%;
     }
 
+    /*FUTURE TRENDS PAGE*/
+
+    .futureTrendPictureClass{
+        height: 40vh;
+    }
+
+    .futureTrendTextClass{
+        text-align: justify;
+    }
 
 
 }
@@ -952,6 +961,16 @@
 
     .diyPageImgClass{
         width: 99%;
+    }
+
+    /*FUTURE TRENDS PAGE*/
+
+    .futureTrendPictureClass{
+        height: 40vh;
+    }
+
+    .futureTrendTextClass{
+        text-align: justify;
     }
 
 }
@@ -1336,6 +1355,16 @@
     .diyPageImgClass{
         width: 99%;
     }
+
+    /*FUTURE TRENDS PAGE*/
+
+    .futureTrendPictureClass{
+        height: 40vh;
+    }
+
+    .futureTrendTextClass{
+        text-align: justify;
+    }
 }
 
 /*MAX-WIDTH 768PX*/
@@ -1618,6 +1647,16 @@
     #diyStep3H{
         margin: auto;
     }
+
+    /*FUTURE TRENDS PAGE*/
+
+    .futureTrendPictureClass{
+        height: 55vh;
+    }
+
+    .futureTrendTextClass{
+        text-align: justify;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/
@@ -1734,6 +1773,16 @@
 
     .bottomNavClass{
         height: 40vh;
+    }
+
+    /*FUTURE TRENDS PAGE*/
+
+    .futureTrendPictureClass{
+        height: 60vh;
+    }
+
+    .futureTrendTextClass{
+        text-align: justify;
     }
 
 }

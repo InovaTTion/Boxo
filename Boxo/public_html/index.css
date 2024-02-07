@@ -1261,6 +1261,10 @@ IN TREND PAGE
     margin: auto;
 }
 
+.futureTrendTextClass{
+    text-align: justify;
+}
+
 /*
 GIFTING TIPS
 */
