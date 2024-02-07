@@ -46,6 +46,10 @@
 
 }
 
+#logoBig{
+    display: none;
+}
+
 .whiteLettersTopNav1{
     font-family: Aleo;
     color: white;
@@ -245,7 +249,60 @@
     border: thin solid yellow;
 }
 
-/*SMALL GALAXY FOLD*/
+/*FRUIT BASKETS PAGE*/
+
+#picture1Big{
+    display: none;
+}
+
+#picture2Big{
+    display: none;
+}
+
+#picture3Big{
+    display: none;
+}
+
+/*GIFT COLLECTIONS PAGE*/
+
+#picture101Big{
+    display: none;
+}
+
+#picture102Big{
+    display: none;
+}
+
+#picture103Big{
+    display: none;
+}
+
+#picture104Big{
+    display: none;
+}
+
+#picture105Big{
+    display: none;
+}
+
+#picture106Big{
+    display: none;
+}
+
+/*SPECIAL OCCASION PAGE*/
+
+#picture201Big{
+    display: none;
+}
+
+#picture202Big{
+    display: none;
+}
+
+#picture203Big{
+    display: none;
+}
+
 
 @media only screen and (max-width: 280px) {
 
@@ -2005,13 +2062,33 @@
 @media only screen and (min-width: 2560px) {
      
 
-     .whiteHeadingGrids{
+     .whiteHeadingGridsCat{
         font-size: 2em;
-        margin: auto;
+        /*margin: auto;*/
      }
 
      .whiteHeadingGridsHP{
         font-size: 4em;
+     }
+
+     .whiteHeadingProducts{
+        font-size: 3em;
+     }
+
+     .whiteLettersItalic{
+        font-size: 2em;
+     }
+
+     .whiteLettersDesc{
+        font-size: 1.5em;
+     }
+
+     .descOpen{
+        font-size: 1.5em;
+     }
+
+     .descClose{
+        font-size: 2em;
      }
 
      .whiteLettersGridText{
@@ -2060,6 +2137,19 @@
 
      /*NAVIGATION BARS*/
 
+     #logoRegular{
+        display: none;
+     }
+
+     .blackLettersBackForward{
+        font-size: 2em;
+        padding: 1em;
+     }
+     
+     #logoBig{
+        display: block;
+     }
+     
      .topNavClass{
         width: 99.5%;
      }
@@ -2094,6 +2184,135 @@
 
      #productsCat{
         margin: 4.4em 0 0 2.7em;
+     }
+
+     /*FRUIT BASKETS PAGE*/
+
+     .products{
+        height: 64.5vh;
+     }
+
+     .productsPicCont{
+        display: flex;
+        justify-content: center;
+     }
+
+     #picture1Regular{
+        display: none;
+     }
+
+     #picture1Big{
+        display: block;
+     }
+
+     #picture2Regular{
+        display: none;
+     }
+
+     #picture2Big{
+        display: block;
+     }
+
+     #picture3Regular{
+        display: none;
+     }
+
+     #picture3Big{
+        display: block;
+     }
+
+     .descCard{
+        top: 42em;
+        height: 20.5vh;
+     }
+
+     .blackLettersDesc{
+        font-size: 1.5em;
+     }
+
+     /*GIFT COLLECTIONS PAGE*/
+
+     .productsDiv6Class{
+        height: 150vh;
+     }
+
+     #picture101Regular{
+        display: none;
+     }
+
+     #picture101Big{
+        display: block;
+     }
+
+     #picture102Regular{
+        display: none;
+     }
+
+     #picture102Big{
+        display: block;
+     }
+
+     #picture103Regular{
+        display: none;
+     }
+
+     #picture103Big{
+        display: block;
+     }
+
+     #picture104Regular{
+        display: none;
+     }
+
+     #picture104Big{
+        display: block;
+     }
+
+     #picture105Regular{
+        display: none;
+     }
+
+     #picture105Big{
+        display: block;
+     }
+
+     #picture106Regular{
+        display: none;
+     }
+
+     #picture106Big{
+        display: block;
+     }
+
+     /*SPECIAL OCCASIONS PAGE*/
+
+     #picture201Regular{
+        display: none;
+     }
+
+     #picture201Big{
+        display: block;
+     }
+
+     #picture202Regular{
+        display: none;
+     }
+
+     #picture202Big{
+        display: block;
+     }
+
+     #picture203Regular{
+        display: none;
+     }
+
+     #picture203Big{
+        display: block;
+     }
+
+     .descCard2{
+        top: 47em;
+        height: 20.5vh;
      }
 
      /*BLOG*/

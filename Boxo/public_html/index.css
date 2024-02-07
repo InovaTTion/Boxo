@@ -129,6 +129,20 @@ html, body{
     cursor: pointer;
 }
 
+.whiteHeadingGridsCat{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    cursor: pointer;
+}
+
+.whiteHeadingProducts{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    cursor: pointer;
+}
+
 .whiteLettersGridText{
     color: white;
     font-family: Aleo;

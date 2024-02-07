@@ -22,9 +22,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     href="../aboutUs.html">O Nama</a>
             </div>
             <div id="middleDivTopNav">
-                <a href="../homepage.html" class="popHover"><img
-                        src="../Images/Logo/Boxo_Logo_52x55.svg" type=""></a>
-                <!--<div style="background-color: red; width: 50px; height: 50px;"></div>-->
+                <a id="logoRegular" href="../homepage.html" class="popHover"><img src="../Images/Logo/Boxo_Logo_52x55.svg" type=""></a>
+                        <a id="logoBig" href="homepage.html" class="popHover"><img src="../Images/Logo/Boxo_Logo_75x80.svg" type=""></a>
+                        <!--<div style="background-color: red; width: 50px; height: 50px;"></div>-->
             </div>
             <div id="rightDivTopNav" class="">
                 <a id="" class="whiteLettersTopNav blueHover"
@@ -65,10 +65,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <h1 id="" class="blackHeadingBig">VOĆNE KORPE</h1>
         <div id="" class="productsDiv3Class">
             <div id="product1" class="products">
-                <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal1').style.display='block'" alt="Vita">
-                <h2 id="" class="whiteHeadingGrids">Vita</h2>
+                <div id="" class="productsPicCont">
+                    <img id="picture1Regular" src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal1').style.display='block'" alt="Vita">
+                    <img id="picture1Big" src="../Images/fruits_400x300.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal1').style.display='block'" alt="Vita">
+                </div>
+                <h2 id="" class="whiteHeadingProducts">Vita</h2>
                 <h3 id="" class="whiteLettersItalic">2199,oo</h3>
-                <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard1').style.display='block'">+</span>
+                <div id="" class="descLabelClass">
+                    <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard1').style.display='block'">+</span>
+                </div>
                 <!--DESCRIPTION CARD HIDDEN BY DEFAULT-->
                 <div id="dCard1" class="descCard">
                     <span id="" class="blackLettersDesc">Opis</span><span id="" class="descClose" onclick="document.getElementById('dCard1').style.display='none'">-</span>
@@ -96,8 +101,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
             </div>
             <div id="product2" class="products">
-                <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal2').style.display='block'" alt="Vital">
-                <h2 id="" class="whiteHeadingGrids">Vital</h2>
+                <div id="" class="productsPicCont">
+                    <img id="picture2Regular" src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal2').style.display='block'" alt="Vital">
+                    <img id="picture2Big" src="../Images/fruits_400x300.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal2').style.display='block'" alt="Vital">
+                </div>
+                <h2 id="" class="whiteHeadingProducts">Vital</h2>
                 <h3 id="" class="whiteLettersItalic">3599,oo</h3>
                 <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard2').style.display='block'">+</span>
                 <!--DESCRIPTION CARD HIDDEN BY DEFAULT-->
@@ -127,8 +135,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div>
             </div>
             <div id="product3" class="products">
-                <img src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal3').style.display='block'" alt="Vital+">
-                <h2 id="" class="whiteHeadingGrids">Vital +</h2>
+                <div id="" class="productsPicCont">
+                    <img id="picture3Regular" src="../Images/fruits_220x165.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal3').style.display='block'" alt="Vital+">
+                    <img id="picture3Big" src="../Images/fruits_400x300.jpg" class="picMarginTop popPictureHover" onclick="document.getElementById('modal3').style.display='block'" alt="Vital+">
+                </div>
+                <h2 id="" class="whiteHeadingProducts">Vital +</h2>
                 <h3 id="" class="whiteLettersItalic">4299,oo</h3>
                 <span id="" class="whiteLettersDesc">Opis</span><span id="" class="descOpen" onclick="document.getElementById('dCard3').style.display='block'">+</span>
                 <!--DESCRIPTION CARD HIDDEN BY DEFAULT-->
