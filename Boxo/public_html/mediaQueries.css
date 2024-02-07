@@ -610,6 +610,22 @@
         text-align: justify;
     }
 
+    /*TOP LISTS PAGE*/
+
+    #topListsMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #topListsPresentH{
+        font-size: 2.3em;
+    }
+
+    .middleListPicture{
+        height: 40vh;
+    }
 
 }
 
@@ -971,6 +987,23 @@
 
     .futureTrendTextClass{
         text-align: justify;
+    }
+
+    /*TOP LISTS PAGE*/
+
+    #topListsMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #topListsPresentH{
+        font-size: 2.3em;
+    }
+
+    .middleListPicture{
+        height: 35vh;
     }
 
 }
@@ -1365,6 +1398,23 @@
     .futureTrendTextClass{
         text-align: justify;
     }
+
+    /*TOP LISTS PAGE*/
+
+    #topListsMiddle{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: justify;
+    }
+
+    #topListsPresentH{
+        font-size: 2.3em;
+    }
+
+    .middleListPicture{
+        height: 35vh;
+    }
 }
 
 /*MAX-WIDTH 768PX*/
@@ -1657,6 +1707,12 @@
     .futureTrendTextClass{
         text-align: justify;
     }
+
+    /*TOP LISTS PAGE*/
+
+    .middleListPicture{
+        height: 35vh;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/
@@ -1783,6 +1839,12 @@
 
     .futureTrendTextClass{
         text-align: justify;
+    }
+
+    /*TOP LISTS PAGE*/
+
+    .middleListPicture{
+        height: 40vh;
     }
 
 }
