@@ -1246,26 +1246,26 @@
 
     .descCard{
         width: 100%;
-        height: 13vh;
+        height: 15vh;
         top: 15.2em;
     }
 
     .descCard1{
         width: 100%;
-        height: 13vh;
+        height: 15vh;
         top: 15.2em;
     }
 
     .descCard11{
         top: 15em;
         width: 100%;
-        height: 13.4vh;
+        height: 15vh;
     }
 
     .descCard2{
         top: 15em;
         width: 100%;
-        height: 14vh;
+        height: 15vh;
     }
 
     .productsDiv6Class{
@@ -1279,7 +1279,7 @@
 
     .modal{
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .modalPic{
@@ -1289,10 +1289,10 @@
 
     .modalDesc{
         width: 100%;
-        height: auto;
+        height: 30vh;
         position: relative;
         left: 0em;
-        bottom: 1.3em;
+        bottom: 1.9em;
     }
 
     /*ABOUT US*/
@@ -1644,25 +1644,37 @@
     }
 
     .descCard{
-        height: 10.6vh;
+        height: 12vh;
         width: 29.99vw;
+        top: 31em;
     }
 
     .descCard1{
-        height: 10.6vh;
+        height: 12vh;
         width: 29.99vw;
+        top: 35em;
     }
 
     .descCard11{
-        top: 68em;
-        height: 10.6vh;
+        top: 70em;
+        height: 12vh;
         width: 29.99vw;
     }
 
     .descCard2{
-        height: 10.6vh;
+        height: 12vh;
         width: 29.99vw;
-        top: 39.2em;
+        top: 39.3em;
+    }
+
+    .modalDesc{
+        left: 33em;
+        bottom: 27.1em;
+        height: 43vh;
+    }
+
+    .modalPic{
+        width: 70%;
     }
 
     .products{
