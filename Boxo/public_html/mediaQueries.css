@@ -668,13 +668,13 @@
 
     .topNavClass1{
         width: 95.05%;
-        
+        height: 8vh;
     }
 
     .classDropdownMenu{
         height: 25vh;
         width: 94.3%;
-        top: 6em;
+        top: 5.5em;
     }
 
     /*BOTTOM NAVIGATION*/
