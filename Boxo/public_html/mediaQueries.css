@@ -660,14 +660,20 @@
 
     #topNav1{
         display: block;
+        /*flex-direction: row;
+        justify-content: space-between;
+        height: 9vh;*/
+        
     }
 
     .topNavClass1{
         width: 95.05%;
+        
     }
 
     .classDropdownMenu{
-        height: 44vh;
+        height: 25vh;
+        top: 6em;
     }
 
     /*BOTTOM NAVIGATION*/
