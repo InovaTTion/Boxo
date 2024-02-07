@@ -1855,23 +1855,25 @@
     }
 
     .descCard{
-        height: 13vh;
+        height: 14vh;
         width: 29.99vw;
+        top: 31em;
     }
 
     .descCard1{
-        height: 13.2vh;
+        height: 14vh;
         width: 29.999vw;
+        top: 35em;
     }
 
     .descCard11{
-        top: 68em;
-        height: 13vh;
+        top: 70em;
+        height: 14vh;
         width: 29.999vw;
     }
 
     .descCard2{
-        height: 13vh;
+        height: 14vh;
         width: 29.99vw;
     }
 
@@ -2048,7 +2050,31 @@
     }
 
     .descCard{
-        height: 13vh;
+        height: 14vh;
+        top: 31em;
+    }
+
+    .descCard1{
+        height: 14vh;
+        top: 34.7em;
+    }
+
+    .descCard11{
+        height: 14vh;
+        top: 70em;
+    }
+
+    .descCard2{
+        height: 14vh;
+    }
+
+    .modalPic{
+        width: 50%;
+    }
+
+    .modalDesc{
+        height: 57.5vh;
+        bottom: 35.8em;
     }
 
     #bottomNav{
