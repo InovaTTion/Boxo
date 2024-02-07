@@ -1877,6 +1877,12 @@
         width: 29.99vw;
     }
 
+    .modalDesc{
+        left: 40em;
+        height: 51.3vh;
+        bottom: 31.9em;
+    }
+
     /*BLOG PAGE*/
 
     .blackHeadingBlog{
