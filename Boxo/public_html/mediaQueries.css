@@ -253,13 +253,16 @@
 
 @media only screen and (max-width: 280px) {
 
+    .blackHeading{
+        font-size: 1.5em;
+    }
 
     .blackHeadingBig{
         font-size: 2em;
     }
 
-    .blackHeading{
-        font-size: 1.5em;
+    .blackHeadingBlogBig{
+        font-size: 2.5em;
     }
     
     /*TOP NAVIGATION*/
@@ -619,11 +622,17 @@
         text-align: justify;
     }
 
-    #topListsPresentH{
-        font-size: 2.3em;
+    .middleListPicture{
+        height: 40vh;
     }
 
-    .middleListPicture{
+    /*GIFTING TIPS*/
+
+    #tipsArticle{
+        text-align: justify;
+    }
+
+    .tipsPictureClass{
         height: 40vh;
     }
 
@@ -998,12 +1007,14 @@
         text-align: justify;
     }
 
-    #topListsPresentH{
-        font-size: 2.3em;
-    }
-
     .middleListPicture{
         height: 35vh;
+    }
+
+    /*GIFTING TIPS PAGE*/
+
+    .tipsPictureClass{
+        height: 40vh;
     }
 
 }
@@ -1408,12 +1419,14 @@
         text-align: justify;
     }
 
-    #topListsPresentH{
-        font-size: 2.3em;
-    }
-
     .middleListPicture{
         height: 35vh;
+    }
+
+     /*GIFTING TIPS PAGE*/
+
+     .tipsPictureClass{
+        height: 40vh;
     }
 }
 
@@ -1713,6 +1726,12 @@
     .middleListPicture{
         height: 35vh;
     }
+
+     /*GIFTING TIPS PAGE*/
+
+     .tipsPictureClass{
+        height: 60vh;
+    }
 }
 
 /*MAX-WIDTH 1024PX*/
@@ -1845,6 +1864,12 @@
 
     .middleListPicture{
         height: 40vh;
+    }
+
+     /*GIFTING TIPS PAGE*/
+
+     .tipsPictureClass{
+        height: 60vh;
     }
 
 }
