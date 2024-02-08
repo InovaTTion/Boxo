@@ -2101,7 +2101,7 @@
 
 }
 
-/*MIN WIDTH 2560PX*/
+/**********************************MIN WIDTH 2560PX************************************/
 
 @media only screen and (min-width: 2560px) {
      
@@ -2242,6 +2242,10 @@
 
      #iconINST2{
         display: block;
+     }
+
+     .bottomLogoClass{
+        transform: scale(1.5);
      }
 
      /*GIFTS PAGE*/
