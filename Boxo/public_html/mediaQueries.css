@@ -2232,6 +2232,18 @@
         font-size: 2em;
      }
 
+     .bottNavIconsDim{
+        font-size: 5.5em;
+     }
+
+     #iconINST{
+        display: none;
+     }
+
+     #iconINST2{
+        display: block;
+     }
+
      /*GIFTS PAGE*/
 
      #productsCat{

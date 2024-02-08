@@ -694,6 +694,11 @@ a{
     animation: bendRight 3s infinite 2s;
 }
 
+#iconINST2{
+    transform: rotate(-15deg);
+    animation: bendRight 3s infinite 2s;
+}
+
 #iconPINT{
     color: red;
     transform: rotate(15deg);
@@ -854,6 +859,10 @@ a{
 }
 
 #iconINST1{
+    display: none;
+}
+
+#iconINST2{
     display: none;
 }
 
