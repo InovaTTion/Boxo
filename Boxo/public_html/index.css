@@ -65,6 +65,10 @@ html, body{
     50% {transform: rotate(-15deg);}
 }
 
+@keyframes descCardOpen{
+    
+}
+
 .frontPicSlides{
     display: none;
 }
@@ -86,7 +90,7 @@ html, body{
 
 .descClose{
     font-family: Aleo;
-    color: black;
+    /*color: black;*/color: white;
     float: right;
     margin-right: 0.5em;
     cursor: pointer;
@@ -109,6 +113,14 @@ html, body{
 
 .blackLettersDesc{
     color: black;
+    font-family: Aleo;
+    text-align: center;
+    float: left;
+    margin-left: 0.5em;
+}
+
+.whiteLettersDescCard{
+    color: white;
     font-family: Aleo;
     text-align: center;
     float: left;
@@ -539,15 +551,15 @@ a{
 }
 
 .descCard{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/background-color: black;
     border-radius: 1em;
     width: 22vw;
-    height: 18.2vh;
+    /*height: 18.2vh;*/ height: 0;
     position: absolute;
-    top: 30.7em;
+    bottom: 2.5em;
     z-index: 1;
-    display: none;
-    
+    /*display: none;*/ visibility: hidden;
+    transition: all ease 2s;
 }
 
 .descCard1{
