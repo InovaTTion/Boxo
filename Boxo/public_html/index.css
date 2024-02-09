@@ -66,7 +66,7 @@ html, body{
 }
 
 @keyframes descCardOpen{
-    
+
 }
 
 .frontPicSlides{
@@ -90,7 +90,7 @@ html, body{
 
 .descClose{
     font-family: Aleo;
-    /*color: black;*/color: white;
+    color: black;
     float: right;
     margin-right: 0.5em;
     cursor: pointer;
@@ -551,14 +551,14 @@ a{
 }
 
 .descCard{
-    /*background-color: aquamarine;*/background-color: black;
+    background-color: aquamarine;
     border-radius: 1em;
     width: 22vw;
     /*height: 18.2vh;*/ height: 0;
     position: absolute;
     bottom: 2.5em;
     z-index: 1;
-    /*display: none;*/ visibility: hidden;
+    overflow: hidden;
     transition: all ease 2s;
 }
 
@@ -566,36 +566,36 @@ a{
     background-color: aquamarine;
     border-radius: 1em;
     width: 22vw;
-    height: 18.2vh;
-    position: absolute;
-    top: 34.3em;
+    /*height: 18.2vh;*/height: 0;
+    position:absolute;
+    bottom: -1.2em;
     z-index: 1;
-    transition: all ease .5s;
-    display: none;
+    transition: all ease 2s;
+    /*display: none;*/overflow: hidden;
 }
 
 .descCard11{
     background-color: aquamarine;
     border-radius: 1em;
     width: 22vw;
-    height: 18.2vh;
+    /*height: 18.2vh;*/height: 0;
     position: absolute;
-    top: 58.2em;
+    bottom: -25.8em;
     z-index: 1;
-    transition: all ease .5s;
-    display: none;
+    transition: all ease 2s;
+    /*display: none;*/overflow: hidden;
 }
 
 .descCard2{
     background-color: aquamarine;
     border-radius: 1em;
     width: 22vw;
-    height: 18.2vh;
+    /*height: 18.2vh;*/height: 0;
     position: absolute;
-    top: 34.5em;
+    bottom: -1.2em;
     z-index: 1;
-    transition: all ease .5s;
-    display: none;
+    transition: all ease 2s;
+    /*display: none;*/overflow: hidden;
 }
 
 .modal{
