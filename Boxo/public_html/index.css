@@ -305,12 +305,13 @@ a{
 /*HOMEPAGE*/
 
 #homeGrid{
+    /*border: thin solid red;*/
     display: grid;
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 50% 50%;
     gap: 0.3em;
     max-width: 99.65%;
-    height: 217vh;
+    height: auto;
 }
 
 .homeGrids{
@@ -476,7 +477,7 @@ a{
 .catGrid{
     background-color: black;
     width: 31vw;
-    height: 80vh;
+    /*height: 80vh;*/height: 500px;
     border: thin solid aquamarine;
     border-radius: 1em;
 }
@@ -503,7 +504,6 @@ a{
 .productGridPic{
     border: thin solid red;
     text-align: center;
-    
 }
 
 .productGridText{
