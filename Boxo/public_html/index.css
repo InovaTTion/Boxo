@@ -290,7 +290,7 @@ a{
     line-height: normal;
     background-color: gray;
     width: 100%;
-    height: 75vh;
+    height: 505px;
     border-radius: 1em;
 }
 
@@ -477,7 +477,7 @@ a{
 .catGrid{
     background-color: black;
     width: 31vw;
-    /*height: 80vh;*/height: 500px;
+    height: 500px;
     border: thin solid aquamarine;
     border-radius: 1em;
 }
@@ -560,7 +560,7 @@ a{
 .modalDesc{
     background-color: beige;
     width: 30vw;
-    height: 75.6vh;
+    height: 481px;
     position: relative;
     bottom: 32.1em;
     left: 48.6em;
@@ -569,7 +569,7 @@ a{
 .modalDescHP{
     background-color: beige;
     width: 30vw;
-    height: 75.6vh;
+    height: 481px;
     position: relative;
     bottom: 32.1em;
     left: 47.2em;
@@ -597,8 +597,9 @@ a{
 }
 
 #phoneDiv{
+    border: thin solid red;
     width: 100%;
-    height: 71vh;
+
 }
 
 #borderDiv{
@@ -609,6 +610,7 @@ a{
 }
 
 #emailDiv{
+    border: thin solid red;
     width: 100%;
     height: 71vh;
 }
