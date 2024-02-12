@@ -314,6 +314,7 @@ a{
     border-radius: 0.5em;
     border: 0.15em solid aquamarine;
     overflow: hidden;
+    text-align: center;
 }
 
 #homeGrid1{
@@ -566,23 +567,10 @@ a{
     left: 48.6em;
 }
 
-.modalDescHP{
-    background-color: beige;
-    width: 30vw;
-    height: 481px;
-    position: relative;
-    bottom: 32.1em;
-    left: 47.2em;
-}
-
 .modalPic{
     padding: 5em 25em 0 0;
     width: auto;
     height: auto;
-}
-
-.modalPicHP{
-    padding: 5em 0 0 5em;
 }
 
 

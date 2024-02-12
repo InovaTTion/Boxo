@@ -1998,7 +1998,17 @@
 @media only screen and (min-width: 2560px) {
      
 
-     .whiteHeadingGridsCat{
+    #frontPicture{
+        background-color: inherit;
+        height: 720px;
+        margin-top: 4em;
+    }
+
+    .frontPicSlides{
+        margin: auto;
+    }
+    
+    .whiteHeadingGridsCat{
         font-size: 2em;
         /*margin: auto;*/
      }
@@ -2138,6 +2148,12 @@
 
      .bottomLogoClass{
         transform: scale(1.5);
+     }
+
+     /*HOME GRID*/
+
+     .homeGrids{
+        margin: auto;
      }
 
      /*GIFTS PAGE*/
