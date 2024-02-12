@@ -905,9 +905,6 @@ a{
     /*border: thin solid black;*/
     display: flex;
     justify-content: space-around;
-    /*grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100%;
-    grid-gap: 0.5em;*/
 }
 
 .carouselBlog{

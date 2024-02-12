@@ -18,9 +18,6 @@
     position: fixed;
     top: 1;
     z-index: 2;
-    /*display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 33% 33% 33%;*/
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -124,7 +121,7 @@
 
 .inputNewsL1{
     width: 60vw;
-    height: 3.5vh;
+    height: 20px;
 }
 
 .inputNewsLBtn1{
@@ -421,7 +418,7 @@
 
     .carousel-items{
         width: 45vw;
-        height: 20vh;
+        height: 150px;
     }
 
     /*CATEGORIES*/
@@ -452,7 +449,7 @@
 
     .modalDesc{
         width: 100%;
-        height: 46vh;
+        height: 300px;
         position: relative;
         left: 0em;
         bottom: 1.3em;
@@ -463,7 +460,7 @@
     #inTrendHeading{
         /*border: thin solid red;*/
         width: 80vw;
-        height: 10vh;
+        height: 70px;
         margin-left: 0.3em;
     }
 
@@ -477,15 +474,15 @@
     }
 
     #blogTopDiv{
+        display: flex;
         flex-direction: column;
-        height: 265vh;
         justify-content: space-between;
     }
 
     .bTopClass{
         width: 92.5vw;
-        height: 85vh;
-        margin-left: 0;
+        height: 550px;
+        margin-top: 1em;
     }
 
     .bTopImgClass{
@@ -516,7 +513,7 @@
     }
 
     .sectionImgClass{
-        height: 40vh;
+        height: 250px;
     }
 
     #diyHeading{
@@ -530,17 +527,17 @@
     }
 
     #future3Heading{
-        display: block;
-        height: 20vh;
+        /*border: thin solid red;*/
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .smallBorderBlack{
         display: none;
-
     }
 
     #nextTrendsHeading{
-        margin-left: 2em;
+        margin-left: 0em;
     }
 
     #topListsHeading{
@@ -548,7 +545,7 @@
     }
 
     #advicesHeading{
-        margin-left: 1.5em;
+        margin-left: 0em;
     }
 
     #blogBottomDiv{
@@ -576,8 +573,8 @@
     }
 
     .inTrendPictureClass{
-        height: 40vh;
         width: 80vw;
+        height: 250px;
     }
 
     #topListsHeading{
@@ -654,7 +651,7 @@
     /*FUTURE TRENDS PAGE*/
 
     .futureTrendPictureClass{
-        height: 40vh;
+        height: 250px;
     }
 
     .futureTrendTextClass{
@@ -671,7 +668,7 @@
     }
 
     .middleListPicture{
-        height: 40vh;
+        height: 250px;
     }
 
     /*GIFTING TIPS*/
@@ -681,7 +678,7 @@
     }
 
     .tipsPictureClass{
-        height: 40vh;
+        height: 250px;
     }
 
 }
@@ -700,7 +697,8 @@
 
     #frontPicture1{
         display: block;
-        height: 40vh;
+        background-color: gray;
+        height: 300px;
     }
 
     
@@ -711,10 +709,6 @@
 
     #topNav1{
         display: block;
-        /*flex-direction: row;
-        justify-content: space-between;
-        height: 9vh;*/
-        
     }
 
     .topNavClass1{
@@ -780,7 +774,7 @@
 
     .carousel-items{
         width: 45vw;
-        height: 20vh;
+        height: 150px;
     }
 
     /*CONTACT*/
@@ -834,19 +828,24 @@
     .modal{
         width: 100%;
         height: 100%;
+        overflow: scroll;
     }
 
     .modalPic{
         width: 100%;
-        height: auto;
+        height: auto;   
     }
 
     .modalDesc{
         width: 100%;
-        height: 35vh;
+        height: 320px;
         position: relative;
+        bottom: 2em;
         left: 0em;
-        bottom: 1.9em;
+    }
+
+    .redClose{
+        
     }
 
     /*BLOG PAGE*/
@@ -868,13 +867,13 @@
     #blogTopDiv{
         flex-direction: column;
         justify-content: space-between;
-        height: 205vh;
+        height: 1700px;
     }
 
     .bTopClass{
         margin-left: 0;
         width: 99%;
-        height: 65vh;
+        height: 530px;
     }
 
     .bTopImgClass{
@@ -890,7 +889,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 120vh;
+        height: 1100px;
     }
 
     .diyStepClass{
@@ -944,7 +943,7 @@
     }
 
     .sectionImgClass{
-        height: 30vh;
+        height: 250px;
     }
 
     .blackHeadingBlogEnd{
@@ -960,8 +959,8 @@
     }
 
     .inTrendPictureClass{
-        height: 40vh;
         width: 80vw;
+        height: 280px;
     }
 
     .arrowBlog{
@@ -1039,7 +1038,7 @@
     /*FUTURE TRENDS PAGE*/
 
     .futureTrendPictureClass{
-        height: 40vh;
+        height: 280px;
     }
 
     .futureTrendTextClass{
@@ -1056,13 +1055,13 @@
     }
 
     .middleListPicture{
-        height: 35vh;
+        height: 280px;
     }
 
     /*GIFTING TIPS PAGE*/
 
     .tipsPictureClass{
-        height: 40vh;
+        height: 280px;
     }
 
 }
@@ -1083,7 +1082,8 @@
 
     #frontPicture1{
         display: block;
-        height: 40vh;
+        background-color: gray;
+        height: 300px;
         width: 100%;
         margin: 0 0 0 0.1em;
     }
@@ -1223,6 +1223,7 @@
     .modal{
         width: 100%;
         height: 100%;
+        overflow: scroll;
     }
 
     .modalPic{
@@ -1232,7 +1233,7 @@
 
     .modalDesc{
         width: 100%;
-        height: 30vh;
+        height: 280px;
         position: relative;
         left: 0em;
         bottom: 1.9em;
@@ -1262,11 +1263,11 @@
     #blogTopDiv{
         flex-direction: column;
         justify-content: space-between;
-        height: 205vh;
+        height: 1650px;
     }
 
     .bTopClass{
-        height: 65vh;
+        height: 520px;
         width: 99.5%;
         margin-left: 0;
     }
@@ -1323,11 +1324,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 150vh;
     }
 
     .bottRposts{
-        height: 30vh;
+        height: 200px;
     }
 
     #bottTop{
@@ -1355,7 +1355,7 @@
     }
 
     .sectionImgClass{
-        height: 30vh;
+        height: 250px;
     }
 
     /*IN TREND PAGE*/
@@ -1367,8 +1367,8 @@
     }
 
     .inTrendPictureClass{
-        height: 40vh;
         width: 80vw;
+        height: 250px;
     }
 
     .arrowBlog{
@@ -1446,7 +1446,7 @@
     /*FUTURE TRENDS PAGE*/
 
     .futureTrendPictureClass{
-        height: 40vh;
+        height: 250px;
     }
 
     .futureTrendTextClass{
@@ -1463,13 +1463,13 @@
     }
 
     .middleListPicture{
-        height: 35vh;
+        height: 250px;
     }
 
      /*GIFTING TIPS PAGE*/
 
      .tipsPictureClass{
-        height: 40vh;
+        height: 250px;
     }
 }
 
@@ -1513,7 +1513,7 @@
     }
 
     .borderSocial{
-        height: 15vh;
+        height: 100px;
     }
 
     .bottomNavGrid1{
@@ -1531,7 +1531,7 @@
     /*HOME GRID*/
 
     #homeGrid{
-        height: 140vh;
+        height: auto;
     }
 
     /*CONTACT PAGE*/
@@ -1593,7 +1593,7 @@
     .modalDesc{
         left: 33em;
         bottom: 27.1em;
-        height: 43vh;
+        height: 405px;
     }
 
     .modalPic{
@@ -1634,7 +1634,7 @@
     #blogMiddleDiv{
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 1500px;
     }
 
     .diyStepClass{
@@ -1703,7 +1703,7 @@
     /*IN TREND PAGE*/
 
     .inTrendPictureClass{
-        height: 50vh;
+        height: 300px;
     }
 
     /*DIY PAGE*/
@@ -1748,7 +1748,7 @@
     /*FUTURE TRENDS PAGE*/
 
     .futureTrendPictureClass{
-        height: 55vh;
+        height: 450px;
     }
 
     .futureTrendTextClass{
@@ -1758,13 +1758,13 @@
     /*TOP LISTS PAGE*/
 
     .middleListPicture{
-        height: 35vh;
+        height: 250px;
     }
 
      /*GIFTING TIPS PAGE*/
 
      .tipsPictureClass{
-        height: 60vh;
+        height: 450px;
     }
 }
 
@@ -1793,7 +1793,7 @@
 
     .modalDesc{
         left: 40em;
-        height: 51.3vh;
+        height: 480px;
         bottom: 31.9em;
     }
 
@@ -1839,14 +1839,17 @@
     #blogTopDiv{
         flex-direction: row;
         justify-content: space-around;
+        height: 550px;
     }
 
     .bTopClass{
         width: 35vw;
+        height: 540px;
+        margin-left: 1em;
     }
 
     #blogMiddleDiv{
-        height: 41vh;
+        height: 400px;
     }
 
     #diyHeading{
@@ -1866,16 +1869,17 @@
         justify-content: space-around;
         font-size: 1.5em;
         height: 2em;
+        margin-top: 1em;
      }
 
     .bottomNavClass{
-        height: 40vh;
+        height: 340px;
     }
 
     /*FUTURE TRENDS PAGE*/
 
     .futureTrendPictureClass{
-        height: 60vh;
+        height: 550px;
     }
 
     .futureTrendTextClass{
@@ -1885,13 +1889,13 @@
     /*TOP LISTS PAGE*/
 
     .middleListPicture{
-        height: 40vh;
+        height: 350px;
     }
 
      /*GIFTING TIPS PAGE*/
 
      .tipsPictureClass{
-        height: 60vh;
+        height: 550px;
     }
 
 }
@@ -1916,8 +1920,8 @@
     /*BLOG*/
     
     #inTrendHeading{
-        height: 10vh;
-        
+        /*border: thin solid red;*/
+        height: 100px;
         padding-top: 1em;
     }
 
@@ -1937,7 +1941,7 @@
     }
 
     #blogMiddleDiv{
-        height: 50vh;
+        height: 500px;
     }
 
     #future3Heading{
@@ -1946,7 +1950,7 @@
     }
 
     #blogBottomDiv{
-        height: 150vh;
+        height: 1500px;
     }
 
     /*IN TREND PAGE*/
@@ -1978,12 +1982,13 @@
     }
 
     .modalDesc{
-        height: 57.5vh;
+        height: 540px;
         bottom: 35.8em;
+        left: 56em;
     }
 
     #bottomNav{
-        height: 40vh;
+        height: 400px;
     }
 
 }
@@ -2152,11 +2157,15 @@
         
      }
 
+     .modal{
+        height: 100%;
+     }
+
      .modalDesc{
         position: relative;
         left: 100em;
         bottom: 50em;
-        height: 81.5vh;
+        height: 760px;
      }
 
      /*FRUIT BASKETS PAGE*/
@@ -2282,16 +2291,24 @@
      /*BLOG*/
 
      #inTrendHeading{
-        
         margin-top: 1em;
+        height: 150px;
+     }
+
+     #blogTopDiv{
+
+     }
+
+     .bTopImgClass{
+        height: 500px;
      }
 
      .bTopClass{
-        height: 90vh;
+        height: 900px;
      }
 
      #blogMiddleDiv{
-        height: 80vh;
+        height: 800px;
      }
 
      #future3Heading{
@@ -2299,7 +2316,7 @@
      }
 
      #blogBottomDiv{
-        height: 250vh;
+        height: 2500px;
      }
 
      .arrowBlog{
