@@ -145,6 +145,20 @@ html, body{
     cursor: pointer;
 }
 
+.whgBottNav{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    cursor: pointer;
+}
+
+.whgBottNav1{
+    color: white;
+    font-family: Aleo;
+    text-align: center;
+    cursor: pointer;
+}
+
 .whiteHeadingGridsCat{
     color: white;
     font-family: Aleo;
@@ -315,6 +329,11 @@ a{
     border: 0.15em solid aquamarine;
     overflow: hidden;
     text-align: center;
+}
+
+.homeGridsPic{
+    margin: auto;
+    
 }
 
 #homeGrid1{
@@ -647,6 +666,11 @@ a{
     animation: bendRight 3s infinite 2s;
 }
 
+#iconINST3{
+    transform: rotate(-15deg);
+    animation: bendRight 3s infinite 2s;
+}
+
 #iconPINT{
     color: red;
     transform: rotate(15deg);
@@ -803,14 +827,6 @@ a{
 
 
 .bottomLogoSmallerClass{
-    display: none;
-}
-
-#iconINST1{
-    display: none;
-}
-
-#iconINST2{
     display: none;
 }
 

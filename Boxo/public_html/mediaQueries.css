@@ -6,6 +6,18 @@
     50% {transform: rotate(-15deg);}
 }
 
+#iconINST1{
+    display: none;
+}
+
+#iconINST2{
+    display: none;
+}
+
+#iconINST3{
+    display: none;
+}
+
 #topNav1{
     display: none;
 }
@@ -1477,15 +1489,28 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+    #frontPicture{
+        background-color: inherit;
+        height: 290px;
+    }
+
+    .blackHeadingBig{
+        font-size: 2.5em;
+    }
+    
     /*TOP NAVIGATION*/
     .topNavClass{
         
+    }
+
+    .whiteLettersTopNav{
+        width: 3.7em;
     }
     
     /*BOTTOM NAVIGATION*/
 
     .bottomNavClass{
-        
+        height: 250px;
     }
 
     .bottomLogoClass{
@@ -1501,19 +1526,20 @@
     }
 
     .bottNavIconsDim{
-        font-size: 3em;
+        font-size: 2.8em;
     }
 
     #iconINST{
         display: none;
     }
 
-    #iconINST1{
+    #iconINST3{
         display: block;
     }
 
     .borderSocial{
-        height: 100px;
+        height: 120px;
+        margin-top: 4em;
     }
 
     .bottomNavGrid1{
@@ -1526,12 +1552,44 @@
 
     .inputNewsL{
         width: 23vw;
+        height: 17px;
+    }
+
+    .formNewsL{
+        margin: 3em 0 0 0;
+    }
+
+    .whgBottNav{
+        font-size: 1.2em;
+    }
+
+    .bottNavLinks{
+        text-align: left;
+    }
+
+    .bottLinks{
+        font-size: 0.7em;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0.5em;
+    }
+
+    .smallBorder{
+        margin: 0 0 0 0.5em;
     }
 
     /*HOME GRID*/
 
     #homeGrid{
         height: auto;
+    }
+
+    .homeGrids{
+        width: 48vw;
+        height: 350px;
+    }
+
+    .whiteHeadingGridsHP{
+        font-size: 1.6em;
     }
 
     /*CONTACT PAGE*/
@@ -1771,14 +1829,32 @@
 /*MAX-WIDTH 1024PX*/
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #frontPicture{
+        background-color: inherit;
+        margin-top: 2.5em;
+        height: 390px;
+    }
+    
     /*TOP NAVIGATION*/
 
     .whiteLettersTopNav{
         font-size: 1.3em;
+        width: 4em;
     }
     
     .topNavClass{
         
+    }
+
+    /*HOME GRID*/
+
+    .homeGrids{
+        height: 400px;
+        width: 48.5vw;
+    }
+
+    .whiteHeadingGridsHP{
+        font-size: 2em;
     }
     
     /*PRODUCT CARDS*/
@@ -1913,8 +1989,34 @@
         font-size: 1.6em;
     }
 
+    /*NAVIGATION BARS*/
+
     .topNavClass{
         width: 99%;
+    }
+
+    /*bottom navigation bar*/
+
+    .borderSocial{
+        height: 200px;
+    }
+
+    .formNewsL{
+        margin: 6em 0 0 0;
+    }
+
+    /*HOME GRID*/
+
+    .whiteHeadingGridsHP{
+        font-size: 2.5em;
+    }
+
+    #frontPicture{
+        margin-top: 2em;
+    }
+
+    .homeGrids{
+        height: 420px;
     }
     
     /*BLOG*/
@@ -2120,12 +2222,30 @@
         font-size: 1.9em;
      }
 
+     /*bottom navigation bar*/
+
+     .whgBottNav{
+        font-size: 2.5em;
+     }
+     
+     .bottomNavClass{
+        height: 600px;
+     }
+
+     .borderSocial{
+        height: 350px;
+     }
+
      .bottLinks{
         font-size: 1.5em;
      }
 
+     .formNewsL{
+        margin: 9em 0 0 0;
+     }
+
      .inputNewsL{
-        font-size: 2.5em;
+        font-size: 2em;
         height: auto;
         width: auto;
      }
@@ -2153,7 +2273,7 @@
      /*HOME GRID*/
 
      .homeGrids{
-        margin: auto;
+        
      }
 
      /*GIFTS PAGE*/
@@ -2164,7 +2284,6 @@
 
      .modalPic{
         width: 40%;
-        
      }
 
      /*PRODUCTS*/
