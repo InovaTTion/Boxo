@@ -8,6 +8,7 @@
 
 #iconINST1{
     display: none;
+    
 }
 
 #iconINST2{
@@ -120,6 +121,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 20% 60% 20%;
+    text-align: center;
 }
 
 .bottNavIconsDim1{
@@ -142,6 +144,9 @@
 
 .classBotNavLinks1{
     /*border: thin solid yellow;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .bottLinks1{
@@ -379,7 +384,7 @@
     }
 
     .bottNavIconsDim1{
-        animation: bendLeft 3s infinite 1s;
+        /*animation: bendLeft 3s infinite 1s;*/
     }
 
     /*PRODUCTS CATEGORIES, GIFTS PAGE*/
@@ -753,6 +758,15 @@
         width: 100%;
         height: 1000px;
         border-radius: 0.5em;
+    }
+
+    .smallBorder1{
+        height: 20px;
+
+    }
+
+    .classBotNavLinks1{
+        margin-top: 0.2em;
     }
 
     /*HOMEPAGE GRID*/
@@ -1144,20 +1158,40 @@
         border-radius: 0.5em;
     }
 
+    .smallBorder1{
+        height: 20px;
+    }
+
+    .classBotNavLinks1{
+        margin-top: 0.5em;
+    }
+
+    #smallBorder16{
+        display: none;
+    }
+
     #iconFB{
-        position: relative;
+        /*position: relative;
         right: 0.7em;
-        animation: bendLeft 3s infinite 1s;
+        animation: bendLeft 3s infinite 1s;*/
     }
 
     #iconINST{
-        position: relative;
-        right: 0.6em;
+        /*position: relative;
+        right: 0.6em;*/
     }
 
     #iconPINT{
-        position: relative;
-        right: 1em;
+        /*position: relative;
+        right: 1em;*/
+    }
+
+    .bottNavIconsDim1{
+        
+    }
+
+    .formNewsL1{
+        margin: 4em 0 0 0;
     }
 
     /*HOMEPAGE GRID*/
@@ -1175,6 +1209,8 @@
 
     .homeGridsA{
         height: auto;
+        width: 75%;
+        margin: 0 auto 0 auto;
     }
 
     .pics1{
@@ -1590,6 +1626,10 @@
 
     .whiteHeadingGridsHP{
         font-size: 1.6em;
+    }
+
+    .whiteLettersGridText{
+        font-size: 0.8em;
     }
 
     /*CONTACT PAGE*/
