@@ -141,6 +141,7 @@ html, body{
 .whiteHeadingGridsHP{
     color: white;
     font-family: Aleo;
+    font-size: 2em;
     text-align: center;
     cursor: pointer;
 }
@@ -332,8 +333,7 @@ a{
 }
 
 .homeGridsPic{
-    margin: auto;
-    
+    /*margin: auto;*/
 }
 
 #homeGrid1{
