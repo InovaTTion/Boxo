@@ -385,6 +385,14 @@
         border-radius: 0.5em;
     }
 
+    #socialMediaIconsDiv{
+        border: thin solid green;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
     .bottNavIconsDim1{
         /*animation: bendLeft 3s infinite 1s;*/
     }
