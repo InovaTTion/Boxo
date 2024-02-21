@@ -157,7 +157,7 @@ html, body{
     color: white;
     font-family: Aleo;
     text-align: center;
-    cursor: pointer;
+    cursor: none;
 }
 
 .whiteHeadingGridsCat{
