@@ -677,6 +677,12 @@ a{
     animation: bendLeft 3s infinite 3.1s;
 }
 
+#iconLINK{
+    color: #0077b5;
+    transform: rotate(-15deg);
+    animation: bendRight 3s infinite 4s;
+}
+
 .contactCont{
     margin-top: 5em;
     font-family: Aleo;
@@ -766,9 +772,10 @@ a{
 
 .bottNavIcons{
     /*border: thin solid lawngreen;*/
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
