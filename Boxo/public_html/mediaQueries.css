@@ -69,6 +69,10 @@
     display: none;
 }
 
+#frontPicture2{
+    display: none;
+}
+
 #homeGridA{
     display: none;
     }
@@ -2311,8 +2315,15 @@
      
 
     #frontPicture{
+        display: none;
         background-color: inherit;
         height: 720px;
+        margin-top: 4em;
+    }
+
+    #frontPicture2{
+        display: flex;
+        justify-content: center;
         margin-top: 4em;
     }
 
