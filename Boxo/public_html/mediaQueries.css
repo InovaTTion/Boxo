@@ -2336,7 +2336,7 @@
     #frontPicture2{
         display: flex;
         justify-content: center;
-        margin-top: 4em;
+        margin-top: 7em;
     }
 
     .frontPicSlides{
@@ -2441,6 +2441,7 @@
      
      .topNavClass{
         width: 99.5%;
+        height: 160px;
      }
 
      #leftDivTopNav{
@@ -2452,7 +2453,7 @@
      }
 
      .whiteLettersTopNav{
-        font-size: 1.9em;
+        font-size: 2.4em;
      }
 
      /*bottom navigation bar*/
