@@ -15,6 +15,23 @@ function showSlides() {
     setTimeout(showSlides, 12000);
 }
 
+/*FRONT/COVER PAGE SLIDES FOR SMALLER DEVICES*/
+let slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+    let i;
+    let slides = document.getElementsByClassName("frontPicSlides1");
+    for(i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex1++;
+    if(slideIndex1 > slides.length) {slideIndex1 = 1}
+
+    slides[slideIndex1-1].style.display = "block";
+    setTimeout(showSlides1, 12000);
+}
+
 /*PARTNERS CAROUSEL*/
 $(".carousel").owlCarousel({
     loop: true,

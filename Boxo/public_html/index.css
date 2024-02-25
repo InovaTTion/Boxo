@@ -505,27 +505,36 @@ a{
 }
 
 #fruitCat{
-    display: grid;
+    /*display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 45% 55%;
+    grid-template-rows: 45% 55%;*/
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
 #collectionCat{
-    display: grid;
+    /*display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 55% 45%;
+    grid-template-rows: 55% 45%;*/
+    display: flex;
+    flex-direction: column;
 }
 
 #personalCat{
-    display: grid;
+    /*display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 45% 55%;
+    grid-template-rows: 45% 55%;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .productGridPic{
-    border: thin solid red;
+    /*border: thin solid red;*/
     text-align: center;
+    justify-content: center;
+    height: auto;
 }
 
 .productGridText{
