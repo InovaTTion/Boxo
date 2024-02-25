@@ -691,7 +691,7 @@ a{
 #iconLINK{
     color: #0077b5;
     transform: rotate(-15deg);
-    animation: bendRight 3s infinite 4s;
+    animation: bendRight 3s infinite 4.4s;
 }
 
 .contactCont{

@@ -122,6 +122,18 @@
     #hg420Pic3{
         display: none;
     }
+
+    #hg680Pic1{
+        display: none;
+    }
+
+    #hg680Pic2{
+        display: none;
+    }
+
+    #hg680Pic3{
+        display: none;
+    }
     
 .pics1{
     margin: 0 0 0 0;
@@ -2495,6 +2507,33 @@
 
      .homeGrids{
         
+     }
+
+     #hg512Pic1{
+        display: none;
+     }
+
+     #hg680Pic1{
+        display: block;
+        margin: auto;
+     }
+
+     #hg512Pic2{
+        display: none;
+     }
+
+     #hg680Pic2{
+        display: block;
+        margin: auto;
+     }
+
+     #hg512Pic3{
+        display: none;
+     }
+
+     #hg680Pic3{
+        display: block;
+        margin: auto;
      }
 
      /*GIFTS PAGE*/
