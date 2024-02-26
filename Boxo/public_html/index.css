@@ -750,29 +750,18 @@ a{
     border: 0.15em solid aquamarine;
     border-radius: 1em;
     width: 100%;
-    height: 300px;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 80% 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottomNavGrid1{
-    /*border: thin solid red;*/
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 80% 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .bottomNavGrid2{
     /*border: thin solid green;*/
-    margin: auto;
-}
-
-.bottNavSocial{
-    /*border: thin solid yellow;*/
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 49% 1% 49%;
 }
 
 .borderSocial{
@@ -792,28 +781,32 @@ a{
 
 .bottNavLinks{
     /*border: thin solid purple;*/
-    padding: 2em 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5em;
 }
 
 .bottLinks{
     font-family: Aleo;
     color: white;
-    padding: 0 0 0 1.7em;
 }
 
 .smallBorder{
     border-left: thin solid white; 
-    padding: 0 0 0 0.2em;
-    margin-left: 2em;
+    /*padding: 0 0 0 0.2em;
+    margin-left: 2em;*/
 }
 
 
 
 .bottNavSmedia{
     /*border: thin solid white;*/
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 30% 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    margin: 0 0 0 1em;
 }
 
 .bottNavIconsDim{
@@ -826,14 +819,18 @@ a{
     text-align: center;
 }
 
+#newsLHid{
+    margin-top: 1.5em;
+}
+
 .formNewsL{
-    margin: 4.7em 0 0 0 ;
+    margin: 3em 0 0 0 ;
 }
 
 .inputNewsL{
     font-size: 1em;
     height: 25px;
-    width: 18vw;
+    width: 20vw;
     border-radius: 0.3em;
 }
 
@@ -843,19 +840,27 @@ a{
     cursor: pointer;
 }
 
+.bottomLogoClass{
+    /*border: thin solid blue;*/
+    margin: auto 6em auto 6em;
+}
 
 .bottomLogoSmallerClass{
     display: none;
+    margin: auto 6em auto 6em;
 }
 
 /*PARTNERS*/
 
 #partnersID{
-
+    
 }
 
 .carousel{
     
+}
+
+.owl-carousel{
 }
 
 .carousel-items{

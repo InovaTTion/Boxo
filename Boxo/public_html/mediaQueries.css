@@ -1663,7 +1663,7 @@
     /*BOTTOM NAVIGATION*/
 
     .bottomNavClass{
-        height: 250px;
+        /*height: 250px;*/
     }
 
     .bottomLogoClass{
@@ -1676,6 +1676,7 @@
 
     .bottomLogoSmallerClass{
         display: block;
+        margin: auto 3em auto 1em;
     }
 
     .bottNavIconsDim{
@@ -1692,16 +1693,12 @@
     }
 
     .borderSocial{
-        height: 120px;
+        /*height: 120px;*/
         margin-top: 4em;
     }
 
     .bottomNavGrid1{
         /*border: thin solid red;*/
-        text-align: center;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 75% 25%;
     }
 
     .inputNewsL{
@@ -1718,13 +1715,12 @@
     }
 
     .bottNavLinks{
-        text-align: left;
+        
     }
 
     .bottLinks{
         font-size: 0.7em;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0.5em;
+        /*padding: 0.5em;*/
     }
 
     .smallBorder{
@@ -2037,8 +2033,42 @@
 
     /*BOTTOM NAVIGATION*/
 
+    #bottomNav{
+        height: auto;
+    }
+    
+    .bottomNavClass{
+    
+    }
+    
     .bottNavIconsDim{
         flex-basis: 35%;
+    }
+
+    .bottNavIcons{
+        /*border: thin solid green;*/
+    }
+
+    .bottNavLinks{
+        /*border: thin solid red;*/
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottomNavGrid1{
+    }
+
+    #newsLHid{
+        margin: 0.8em;
+    }
+
+    .formNewsL{
+        margin: 6em 0 0 0 ;
+    }
+
+    .bottomLogoClass{
+        /*border: thin solid blue;*/
+        margin: auto 3em auto 1em;
     }
 
     /*HOME GRID*/
@@ -2050,6 +2080,10 @@
 
     .whiteHeadingGridsHP{
         font-size: 2em;
+    }
+
+    .whiteLettersGridText{
+        font-size: 0.87em;
     }
 
     #hg512Pic1{
@@ -2218,7 +2252,7 @@
     }
 
     /*bottom navigation bar*/
-
+    
     .borderSocial{
         height: 200px;
     }
@@ -2314,11 +2348,6 @@
         bottom: 35.8em;
         left: 56em;
     }
-
-    #bottomNav{
-        height: 400px;
-    }
-
 }
 
 /**********************************MIN WIDTH 2560PX************************************/
@@ -2463,7 +2492,7 @@
      }
      
      .bottomNavClass{
-        height: 600px;
+        
      }
 
      .borderSocial{
@@ -2472,6 +2501,10 @@
 
      .bottLinks{
         font-size: 1.5em;
+     }
+
+     .bottNavLinks{
+        padding: 1em;
      }
 
      .formNewsL{
