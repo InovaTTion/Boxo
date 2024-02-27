@@ -2607,9 +2607,12 @@
 
      /*FRUIT BASKETS PAGE*/
 
+     #fruitBasketsHeading{
+        margin: 2em 0 0 0;
+     }
+
      .products{
-        height: 650px;
-    
+        height: 700px;
      }
 
      .productsPicCont{
@@ -2643,6 +2646,7 @@
 
      .descCard{
         width: 100%;
+        bottom: 10.5em;
      }
 
      .blackLettersDesc{
