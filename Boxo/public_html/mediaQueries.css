@@ -2655,6 +2655,10 @@
 
      /*GIFT COLLECTIONS PAGE*/
 
+     #giftCollHeading{
+        margin: 2em 0 0 0;
+     }
+
      #picture101Regular{
         display: none;
      }
