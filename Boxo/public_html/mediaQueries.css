@@ -2709,6 +2709,10 @@
 
      /*SPECIAL OCCASIONS PAGE*/
 
+     #specOccasionHeading{
+        margin: 2em 0 0 0;
+     }
+
      #picture201Regular{
         display: none;
      }
