@@ -260,16 +260,13 @@
     height: 500px;
     border-radius: 0.3em;
     margin-bottom: 30px;
-    /*display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 23% 38.5% 38.5%;*/
     display: flex;
     flex-direction: column;
 }
 
 .productGridPic1{
-    border: thin solid green;
-    height: 200px;
+    /*border: thin solid green;*/
+    
 }
 
 .whiteLettersGridText1{
@@ -469,6 +466,10 @@
         flex-direction: column;
     }
 
+    .productGridPic1{
+        margin: 0 auto 0 auto;
+    }
+
     /*CONTACT PAGE*/
     #socialNetworkDiv{
         display: none;
@@ -553,8 +554,6 @@
     }
 
     #blogMiddle{
-        /*grid-template-rows: 3% 27% 3% 16% 10% 41%;
-        display: block;*/
         display: flex;
         flex-direction: column;
         height: auto;
@@ -655,9 +654,7 @@
     }
 
     #inTrendSections{
-        /*display: flex;
-        flex-direction: column;
-        height: auto;*/
+
     }
 
     .inTrendPictureClass{
@@ -937,6 +934,10 @@
     #productsCat1{
         display: flex;
         flex-direction: column;
+    }
+
+    .productGridPic1{
+        margin: 0 auto 0 auto;
     }
 
     /*CATEGORIES*/
@@ -1287,9 +1288,7 @@
     }
 
     #iconFB{
-        /*position: relative;
-        right: 0.7em;
-        animation: bendLeft 3s infinite 1s;*/
+        
     }
 
     #iconINST{
@@ -1299,8 +1298,7 @@
     }
 
     #iconPINT{
-        /*position: relative;
-        right: 1em;*/
+        
     }
 
     .bottNavIconsDim1{
@@ -1366,6 +1364,10 @@
     #productsCat1{
         display: flex;
         flex-direction: column;
+    }
+
+    .productGridPic1{
+        margin: 0 auto 0 auto;
     }
 
     /*CATEGORIES*/
@@ -1774,6 +1776,7 @@
         display: block;
     }
 
+
     /*CONTACT PAGE*/
 
     #socialNetworkDiv{
@@ -1787,8 +1790,8 @@
     }
 
     #imgCat11{
-        /*visibility: visible;*/
         display: block;
+        margin: auto;
     }
 
     #imgCat2{
@@ -1796,8 +1799,8 @@
     }
 
     #imgCat21{
-        /*visibility: visible;*/
         display: block;
+        margin: auto;
     }
 
     #imgCat3{
@@ -1805,8 +1808,8 @@
     }
 
     #imgCat31{
-        /*visibility: visible;*/
         display: block;
+        margin: auto;
     }
 
     /*PRODUCT CARDS*/
@@ -2535,6 +2538,7 @@
 
      .bottomLogoClass{
         transform: scale(1.5);
+        margin-right: 13em;
      }
 
      /*HOME GRID*/
@@ -2573,7 +2577,11 @@
      /*GIFTS PAGE*/
 
      #productsCat{
-        margin: 4.4em 0 0 2.7em;
+        margin: 6em auto 1.5em auto;
+     }
+
+     .catGrid{
+        
      }
 
      .modalPic{

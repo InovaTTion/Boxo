@@ -485,11 +485,6 @@ a{
 /*PRODUCTS CATEGORIES*/
 
 #productsCat{
-    /*display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 33% 33% 33%;
-    gap: 0.1em;
-    margin: 0 0 0 1em;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -497,17 +492,14 @@ a{
 }
 
 .catGrid{
+    border: thin solid aquamarine;
     background-color: black;
     width: 31vw;
-    height: 500px;
-    border: thin solid aquamarine;
+    /*height: 500px;*/
     border-radius: 1em;
 }
 
 #fruitCat{
-    /*display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 45% 55%;*/
     display: flex;
     flex-direction: column;
     
@@ -515,17 +507,11 @@ a{
 
 
 #collectionCat{
-    /*display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 55% 45%;*/
     display: flex;
     flex-direction: column;
 }
 
 #personalCat{
-    /*display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 45% 55%;*/
     display: flex;
     flex-direction: column;
 }
