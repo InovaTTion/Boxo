@@ -643,7 +643,7 @@ a{
 
 
 #iconFB{
-    color: blue;
+    color: #316FF6;
     transform: rotate(15deg);
     animation: bendLeft 3s infinite 1s;
 }
