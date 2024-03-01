@@ -12,9 +12,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" href="mediaQueries.css">
         <!--LINK TO JQUERRY AND CAROUSEL-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <!--JAVASCRIPT-->
+        <script src="index.js"></script>
     </head>
     <body>
         <nav id="topNav" class="topNavClass">
@@ -24,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <a id="" class="whiteLettersTopNav blueHover" href="aboutUs.html">O Nama</a>
             </div>
             <div id="middleDivTopNav">
-                <a id="logoRegular" href="../homepage.html" class="popHover"><img src="Images/Logo/Boxo_Logo_52x55.svg" type=""></a>
+                <a id="logoRegular" href="homepage.html" class="popHover"><img src="Images/Logo/Boxo_Logo_52x55.svg" type=""></a>
                 <a id="logoBig" href="homepage.html" class="popHover"><img src="Images/Logo/Boxo_Logo_75x80.svg" type=""></a>
                 <!--<div style="background-color: red; width: 50px; height: 50px;"></div>-->
             </div>
@@ -34,8 +36,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <a id="" class="whiteLettersTopNav blueHover" href="blog.html">Blog</a>
             </div>
         </nav>
-        <!--TOP NAVIGATION FOR SMALL DEVICES MAX WIDTH 280PX
-                    WHICH IS HIDDEN BY DEFAULT          -->
+        <!--TOP NAVIGATION FOR SMALL DEVICES WHICH IS HIDDEN BY DEFAULT -->
                     <nav id="topNav1" class="topNavClass1">
                         <ion-icon onclick="dropdownMenu()" style="float: left; margin: 0.3em 0 0 0.2em;" class="whiteIcons" name="menu-outline"></ion-icon>
                         <a href="homepage.html" style="position: relative; top: 0.5em;" class=""><img src="Images/Logo/Boxo_Logo_45x48.svg" alt=""></a>
@@ -57,11 +58,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
         <br>
         <br>
-        <div id="frontPicture" class="frontPictureHide">
+        <!--<div id="frontPicture" class="frontPictureHide">
             <img src="Images/coruh-river_1920.jpg" class="frontPicSlides" style="max-width: 100%; opacity: 1; border-radius: 1em;" alt="">
             <img src="Images/italian_1920x724.jpg" class="frontPicSlides" style="max-width: 100%; opacity: 1; border-radius: 1em;" alt="">
             <img src="Images/smart-cities-blog-1920x724.jpg" class="frontPicSlides" style="max-width: 100%; opacity: 1; border-radius: 1em;" alt="">
-        </div>
+        </div>-->
         <h1 id="" class="blackHeading">O nama</h1>
         <hr style="width: 85vw;">
         <div id="idQuestions" class="">
@@ -115,7 +116,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <hr style="width: 85vw;">
         <div id="partnersID" class="">
             <h1 id="" class="blackHeading">PARTNERI</h1>
-            <div id="" class="carousel owl-carousel">
+            <div id="carouselID" class="carousel owl-carousel">
                 <div id="" class="carousel-items">Partner 1</div>
                 <div id="" class="carousel-items">Partner 2</div>
                 <div id="" class="carousel-items">Partner 3</div>
@@ -239,8 +240,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                             </div>
                         </div>
                     </nav>
-        <!--JAVASCRIPT-->
-        <script src="index.js"></script>
+        
         <!--ION ICONS SCRIPT-->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

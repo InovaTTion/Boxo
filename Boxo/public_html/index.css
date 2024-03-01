@@ -842,8 +842,14 @@ a{
     
 }
 
+#carouselID{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .carousel{
-    
+
 }
 
 .owl-carousel{

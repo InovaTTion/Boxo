@@ -50,7 +50,7 @@ function showSlides2() {
 }
 
 /*PARTNERS CAROUSEL*/
-$(".carousel").owlCarousel({
+$("#carouselID").owlCarousel({
     loop: true,
     autoplay: true,
     autoplayHoverPause: true,
